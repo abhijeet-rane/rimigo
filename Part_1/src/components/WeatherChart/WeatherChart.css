@@ -1,0 +1,128 @@
+.weather-chart {
+  margin-top: var(--space-6);
+}
+
+.weather-chart__heading {
+  font-family: var(--font-sans);
+  font-weight: 800;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: -0.02em;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: #E2CFFD;
+  margin-bottom: var(--space-4);
+}
+
+.weather-chart__bars-scroll {
+  overflow-x: auto;
+  overflow-y: visible;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  padding-bottom: var(--space-2);
+}
+
+.weather-chart__bars-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.weather-chart__bars {
+  display: flex;
+  align-items: flex-end;
+  gap: 6px;
+  min-width: max-content;
+  padding: var(--space-4) 0 var(--space-1);
+}
+
+.weather-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-1);
+  cursor: default;
+}
+
+.weather-bar__emoji {
+  font-size: 1.375rem;
+  line-height: 1;
+  margin-bottom: 2px;
+  filter: drop-shadow(0 1px 2px rgba(0,0,0,0.4));
+}
+
+.weather-bar__bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 44px;
+  border-radius: var(--radius-sm) var(--radius-sm) 0 0;
+  padding-top: var(--space-2);
+  position: relative;
+  transition: filter var(--transition-fast);
+}
+
+.weather-bar__bar:hover {
+  filter: brightness(1.12);
+}
+
+.weather-bar__temp {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  white-space: nowrap;
+  letter-spacing: -0.02em;
+}
+
+.weather-bar__month {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-top: var(--space-2);
+}
+
+.weather-bar__bar--golden {
+  background: var(--color-bar-golden);
+}
+
+.weather-bar__bar--teal {
+  background: var(--color-bar-teal);
+}
+
+.weather-bar__bar--highlight {
+  background: var(--color-bar-teal-light);
+}
+
+.weather-bar__bar--active {
+  background: #2dd4bf;
+  box-shadow: 0 0 14px rgba(45, 212, 191, 0.35);
+}
+
+.weather-bar--active .weather-bar__month {
+  color: #2dd4bf;
+}
+
+@media (max-width: 640px) {
+  .weather-chart {
+    margin-top: var(--space-5);
+  }
+
+  .weather-chart__bars {
+    gap: 5px;
+    padding: var(--space-3) 0 var(--space-1);
+  }
+
+  .weather-bar__bar {
+    width: 38px;
+  }
+
+  .weather-bar__emoji {
+    font-size: 1.2rem;
+  }
+
+  .weather-bar__temp {
+    font-size: 0.6875rem;
+  }
+}

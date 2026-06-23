@@ -1,0 +1,153 @@
+.info-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-top: var(--space-6);
+}
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 129px;
+  height: 56px;
+  padding: 3px 5px 3px 5px;
+  background: #E2CFFD29;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  transition: background var(--transition-fast), border-color var(--transition-fast);
+  opacity: 1;
+}
+
+.info-card:hover {
+  background: rgba(226, 207, 253, 0.22);
+  border-color: rgba(226, 207, 253, 0.4);
+}
+
+.calendar-icon {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  display: inline-block;
+}
+
+.calendar-icon span {
+  position: absolute;
+  box-sizing: border-box;
+  border: 1.16667px solid #E2CFFD;
+}
+
+.calendar-icon__v1 {
+  left: 33.34%;
+  right: 66.66%;
+  top: 8.34%;
+  bottom: 74.99%;
+}
+
+.calendar-icon__v2 {
+  left: 66.66%;
+  right: 33.34%;
+  top: 8.34%;
+  bottom: 74.99%;
+}
+
+.calendar-icon__v3 {
+  left: 12.5%;
+  right: 12.5%;
+  top: 16.66%;
+  bottom: 8.34%;
+  border-radius: 1px;
+}
+
+.calendar-icon__v4 {
+  left: 12.5%;
+  right: 12.5%;
+  top: 41.66%;
+  bottom: 58.34%;
+}
+
+.calendar-icon__v5 {
+  left: 33.34%;
+  right: 66.61%;
+  top: 58.34%;
+  bottom: 41.66%;
+}
+
+.calendar-icon__v6 {
+  left: 50%;
+  right: 49.95%;
+  top: 58.34%;
+  bottom: 41.66%;
+}
+
+.calendar-icon__v7 {
+  left: 66.66%;
+  right: 33.3%;
+  top: 58.34%;
+  bottom: 41.66%;
+}
+
+.calendar-icon__v8 {
+  left: 33.34%;
+  right: 66.61%;
+  top: 75%;
+  bottom: 25%;
+}
+
+.calendar-icon__v9 {
+  left: 50%;
+  right: 49.95%;
+  top: 75%;
+  bottom: 25%;
+}
+
+.calendar-icon__v10 {
+  left: 66.66%;
+  right: 33.3%;
+  top: 75%;
+  bottom: 25%;
+}
+
+.info-card__label {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: 0.625rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-label);
+}
+
+.info-card__label-icon {
+  width: 14px;
+  height: 14px;
+  color: var(--color-text-label);
+  flex-shrink: 0;
+}
+
+.info-card__value {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: var(--color-text-primary);
+  letter-spacing: -0.01em;
+}
+
+@media (max-width: 640px) {
+  .info-cards {
+    gap: var(--space-2);
+  }
+
+  .info-card {
+    padding: 12px 16px;
+    width: 120px;
+    height: 52px;
+  }
+
+  .info-card__value {
+    font-size: 0.875rem;
+  }
+}
