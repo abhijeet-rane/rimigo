@@ -1,0 +1,212 @@
+{
+    "results": [
+        {
+            "id": "67a31ecc3a326523de0232f0",
+            "name": "Tokyo",
+            "province": null,
+            "country": {
+                "id": "67a31d03aa84ea4b97d24fa5",
+                "name": "Japan",
+                "region": {
+                    "id": "67a226f552ed76c889bcb13a",
+                    "name": "East Asia",
+                    "created_at": "2025-02-04T14:40:53.491000Z",
+                    "updated_at": "2025-02-04T14:40:53.491000Z"
+                },
+                "created_at": "2025-02-05T08:10:43.317000Z",
+                "updated_at": "2025-02-05T08:10:43.317000Z"
+            },
+            "experience_count": 62,
+            "created_at": "2025-02-05T08:18:20.563000Z",
+            "updated_at": "2025-02-05T08:18:20.563000Z"
+        },
+        {
+            "id": "67a31ecc3a326523de0232f5",
+            "name": "Fukuoka",
+            "province": null,
+            "country": {
+                "id": "67a31d03aa84ea4b97d24fa5",
+                "name": "Japan",
+                "region": {
+                    "id": "67a226f552ed76c889bcb13a",
+                    "name": "East Asia",
+                    "created_at": "2025-02-04T14:40:53.491000Z",
+                    "updated_at": "2025-02-04T14:40:53.491000Z"
+                },
+                "created_at": "2025-02-05T08:10:43.317000Z",
+                "updated_at": "2025-02-05T08:10:43.317000Z"
+            },
+            "experience_count": 50,
+            "created_at": "2025-02-05T08:18:20.847000Z",
+            "updated_at": "2025-02-05T08:18:20.847000Z"
+        },
+        {
+            "id": "67c55bac3a53d2c6bbdef66c",
+            "name": "Nagano",
+            "province": null,
+            "country": {
+                "id": "67a31d03aa84ea4b97d24fa5",
+                "name": "Japan",
+                "region": {
+                    "id": "67a226f552ed76c889bcb13a",
+                    "name": "East Asia",
+                    "created_at": "2025-02-04T14:40:53.491000Z",
+                    "updated_at": "2025-02-04T14:40:53.491000Z"
+                },
+                "created_at": "2025-02-05T08:10:43.317000Z",
+                "updated_at": "2025-02-05T08:10:43.317000Z"
+            },
+            "experience_count": 48,
+            "created_at": "2025-03-03T07:35:08.946000Z",
+            "updated_at": "2025-03-03T07:35:08.946000Z"
+        },
+        {
+            "id": "67c8352c717725183644569c",
+            "name": "Nara",
+            "province": null,
+            "country": {
+                "id": "67a31d03aa84ea4b97d24fa5",
+                "name": "Japan",
+                "region": {
+                    "id": "67a226f552ed76c889bcb13a",
+                    "name": "East Asia",
+                    "created_at": "2025-02-04T14:40:53.491000Z",
+                    "updated_at": "2025-02-04T14:40:53.491000Z"
+                },
+                "created_at": "2025-02-05T08:10:43.317000Z",
+                "updated_at": "2025-02-05T08:10:43.317000Z"
+            },
+            "experience_count": 45,
+            "created_at": "2025-03-05T11:27:40.481000Z",
+            "updated_at": "2025-03-05T11:27:40.481000Z"
+        },
+        {
+            "id": "67a31ecc3a326523de0232f4",
+            "name": "Sapporo",
+            "province": null,
+            "country": {
+                "id": "67a31d03aa84ea4b97d24fa5",
+                "name": "Japan",
+                "region": {
+                    "id": "67a226f552ed76c889bcb13a",
+                    "name": "East Asia",
+                    "created_at": "2025-02-04T14:40:53.491000Z",
+                    "updated_at": "2025-02-04T14:40:53.491000Z"
+                },
+                "created_at": "2025-02-05T08:10:43.317000Z",
+                "updated_at": "2025-02-05T08:10:43.317000Z"
+            },
+            "experience_count": 42,
+            "created_at": "2025-02-05T08:18:20.798000Z",
+            "updated_at": "2025-02-05T08:18:20.798000Z"
+        },
+        {
+            "id": "68627543617a77a1c84a3355",
+            "name": "Kawaguchiko",
+            "province": null,
+            "country": {
+                "id": "67a31d03aa84ea4b97d24fa5",
+                "name": "Japan",
+                "region": {
+                    "id": "67a226f552ed76c889bcb13a",
+                    "name": "East Asia",
+                    "created_at": "2025-02-04T14:40:53.491000Z",
+                    "updated_at": "2025-02-04T14:40:53.491000Z"
+                },
+                "created_at": "2025-02-05T08:10:43.317000Z",
+                "updated_at": "2025-02-05T08:10:43.317000Z"
+            },
+            "experience_count": 38,
+            "created_at": null,
+            "updated_at": null
+        },
+        {
+            "id": "67a31ecc3a326523de0232f7",
+            "name": "Kyoto",
+            "province": null,
+            "country": {
+                "id": "67a31d03aa84ea4b97d24fa5",
+                "name": "Japan",
+                "region": {
+                    "id": "67a226f552ed76c889bcb13a",
+                    "name": "East Asia",
+                    "created_at": "2025-02-04T14:40:53.491000Z",
+                    "updated_at": "2025-02-04T14:40:53.491000Z"
+                },
+                "created_at": "2025-02-05T08:10:43.317000Z",
+                "updated_at": "2025-02-05T08:10:43.317000Z"
+            },
+            "experience_count": 36,
+            "created_at": "2025-02-05T08:18:20.946000Z",
+            "updated_at": "2025-02-05T08:18:20.946000Z"
+        },
+        {
+            "id": "67a31ecc3a326523de0232f1",
+            "name": "Yokohama",
+            "province": null,
+            "country": {
+                "id": "67a31d03aa84ea4b97d24fa5",
+                "name": "Japan",
+                "region": {
+                    "id": "67a226f552ed76c889bcb13a",
+                    "name": "East Asia",
+                    "created_at": "2025-02-04T14:40:53.491000Z",
+                    "updated_at": "2025-02-04T14:40:53.491000Z"
+                },
+                "created_at": "2025-02-05T08:10:43.317000Z",
+                "updated_at": "2025-02-05T08:10:43.317000Z"
+            },
+            "experience_count": 36,
+            "created_at": "2025-02-05T08:18:20.613000Z",
+            "updated_at": "2025-02-05T08:18:20.613000Z"
+        },
+        {
+            "id": "67a31ecc3a326523de0232f8",
+            "name": "Hiroshima",
+            "province": null,
+            "country": {
+                "id": "67a31d03aa84ea4b97d24fa5",
+                "name": "Japan",
+                "region": {
+                    "id": "67a226f552ed76c889bcb13a",
+                    "name": "East Asia",
+                    "created_at": "2025-02-04T14:40:53.491000Z",
+                    "updated_at": "2025-02-04T14:40:53.491000Z"
+                },
+                "created_at": "2025-02-05T08:10:43.317000Z",
+                "updated_at": "2025-02-05T08:10:43.317000Z"
+            },
+            "experience_count": 30,
+            "created_at": "2025-02-05T08:18:20.998000Z",
+            "updated_at": "2025-02-05T08:18:20.998000Z"
+        },
+        {
+            "id": "67c18f3e886b54c0997cc2d9",
+            "name": "Takayama",
+            "province": null,
+            "country": {
+                "id": "67a31d03aa84ea4b97d24fa5",
+                "name": "Japan",
+                "region": {
+                    "id": "67a226f552ed76c889bcb13a",
+                    "name": "East Asia",
+                    "created_at": "2025-02-04T14:40:53.491000Z",
+                    "updated_at": "2025-02-04T14:40:53.491000Z"
+                },
+                "created_at": "2025-02-05T08:10:43.317000Z",
+                "updated_at": "2025-02-05T08:10:43.317000Z"
+            },
+            "experience_count": 27,
+            "created_at": "2025-02-28T10:26:06.244000Z",
+            "updated_at": "2025-02-28T10:26:06.244000Z"
+        }
+    ],
+    "pagination": {
+        "total_count": 15,
+        "total_pages": 2,
+        "current_page": 1,
+        "limit": 10,
+        "has_next": true,
+        "has_previous": false
+    }
+}

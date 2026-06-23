@@ -1,0 +1,1372 @@
+{
+    "total": 490,
+    "page": 1,
+    "limit": 12,
+    "has_more": true,
+    "results": [
+        {
+            "id": "6815a301e8ab27cae1a48e90",
+            "name": "Explore Shinjuku Gyoen National Garden",
+            "identifier": "tokyo-shinjuku-gyoen-national-garden",
+            "alternate_name": "Shinjuku Imperial Garden",
+            "base_city": {
+                "id": "67a31ecc3a326523de0232f0",
+                "name": "Tokyo",
+                "province": null,
+                "country": {
+                    "id": "67a31d03aa84ea4b97d24fa5",
+                    "name": "Japan",
+                    "region": {
+                        "id": "67a226f552ed76c889bcb13a",
+                        "name": "East Asia",
+                        "created_at": "2025-02-04T14:40:53.491000Z",
+                        "updated_at": "2025-02-04T14:40:53.491000Z"
+                    },
+                    "created_at": "2025-02-05T08:10:43.317000Z",
+                    "updated_at": "2025-02-05T08:10:43.317000Z"
+                },
+                "experience_count": 62,
+                "created_at": "2025-02-05T08:18:20.563000Z",
+                "updated_at": "2025-02-05T08:18:20.563000Z"
+            },
+            "alternate_base_city": null,
+            "categories": ["Nature", "Outdoor", "Family", "Cultural", "Cultural Experience", "Landmarks", "Traditional"],
+            "location": {
+                "address": "11 Naitomachi, Shinjuku City, Tokyo 160-0014, Japan",
+                "latitude": 35.6852,
+                "longitude": 139.71,
+                "location_summary": "Shinjuku Gyoen National Garden is located in Shinjuku City, Tokyo, near Shinjuku Station, spanning a large area with multiple entrances, including Shinjuku Gate, Okido Gate, and Sendagaya Gate.",
+                "zipcode": "160-0014"
+            },
+            "verification_info": null,
+            "visibility_info": {
+                "is_published_on_rimigo": true,
+                "visibility_updated_by": null,
+                "last_visibility_updated_at": null,
+                "description": null
+            },
+            "display_props": {
+                "name": "Explore Shinjuku Gyoen National Garden",
+                "landscape_image": "https://images.fineartamerica.com/images-medium-large-5/shinjuku-gyoen-national-garden-in-claire-takacs.jpg",
+                "portrait_image": "https://i.pinimg.com/736x/00/bf/bf/00bfbf86ba4a15604598416d6c6d2655.jpg",
+                "reel": "https://www.instagram.com/reel/C33v2uVBxLn/?utm_source=ig_web_copy_link",
+                "video": "https://youtu.be/JTKq_p31hyU?si=FvZvYc1dwY_duwmT",
+                "short": "Step into the tranquil beauty of Shinjuku Gyoen, Tokyo’s serene oasis blending Japanese, English, and French garden styles. From cherry blossoms in spring to vibrant autumn hues, every season offers a breathtaking escape from the city's buzz!",
+                "description": "Step into the tranquil beauty of Shinjuku Gyoen, Tokyo’s serene oasis blending Japanese, English, and French garden styles. From cherry blossoms in spring to vibrant autumn hues, every season offers a breathtaking escape from the city's buzz!"
+            },
+            "content": {
+                "verified_photos": [
+                    {
+                        "id": "a056e164-f1de-42ae-82b0-26ed597200c9",
+                        "url": "https://images4.alphacoders.com/591/thumb-1920-591810.jpg",
+                        "description": "Image of Cherry Blossom Lake Bridge at Shinjuku Gyoen National Garden.",
+                        "created_at": "2025-06-20T09:34:03.876000",
+                        "updated_at": "2025-06-20T09:34:03.901000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "01556c62-3559-414c-948a-aad36cdf0bfb",
+                        "url": "https://image.arrivalguides.com/1230x800/12/8e7f0e3b623f4b915e655f5875e95bbd.jpg",
+                        "description": "Image of Shinjuku Gyoen National Garden.",
+                        "created_at": "2025-06-20T09:34:03.876000",
+                        "updated_at": "2025-06-20T09:34:03.901000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "af634463-1784-4702-b0df-0d530302bf3a",
+                        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Impression_of_Shinjuku_Gyoen,_Tokyo_(3).jpg",
+                        "description": "Image of Pond surrounded with flowers and trees in Shinjuku Gyoen National Garden.",
+                        "created_at": "2025-06-20T09:34:03.876000",
+                        "updated_at": "2025-06-20T09:34:03.901000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "2487a7e7-7e90-4928-9f05-302f9c49856a",
+                        "url": "https://thumbs.dreamstime.com/b/cherry-blossom-viewing-shinjuku-gyoen-national-garden-tokyo-april-japan-visitors-to-season-163477113.jpg",
+                        "description": "Image of Cherry Blossoms in Shinjuku Gyoen National Garden.",
+                        "created_at": "2025-06-20T09:34:03.876000",
+                        "updated_at": "2025-06-20T09:34:03.901000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "10352fca-45d2-48aa-9e1f-185b3ece6f88",
+                        "url": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/japanese-teahouse-at-shinjuku-gyoen-national-garden-tokyo-japan-jeffrey-ross.jpg",
+                        "description": "Image of Traditional Teahouse at Shinjuku Gyoen National Garden.",
+                        "created_at": "2025-06-20T09:34:03.877000",
+                        "updated_at": "2025-06-20T09:34:03.901000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "b644026b-6d5a-4b29-b364-be4f5511828e",
+                        "url": "https://cdn.cheapoguides.com/wp-content/uploads/sites/2/2019/10/shinjuku-gyoen-maple-tree-fall-iStock-magicflute002-1024x600.jpg",
+                        "description": "Vibrant image of trees during autumn in Shinjuku Gyoen National Garden.",
+                        "created_at": "2025-06-20T09:34:03.877000",
+                        "updated_at": "2025-06-20T09:34:03.901000",
+                        "_cls": "MediaContent"
+                    }
+                ],
+                "instagram_reels": [
+                    {
+                        "id": "faf7905b-d931-44f9-b66e-0b6c3ab48f97",
+                        "url": "https://www.instagram.com/reel/Cz8yO_fv4SD/?igsh=MTZhcXE3aGtqZHEwaA==",
+                        "description": "Video of Autumn Night Garden in Shinjuku Gyoen National Garden.",
+                        "created_at": "2025-06-20T09:34:03.878000",
+                        "updated_at": "2025-06-20T09:34:03.902000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "28398538-77d5-4aee-b6a1-5f8bd7d48eeb",
+                        "url": "https://www.instagram.com/reel/Cz43q9XRatl/?igsh=MXZidTM2ZnBtajBkNw==",
+                        "description": "Video of Tourist sharing her experience at Shinjuku Gyoen National Garden.",
+                        "created_at": "2025-06-20T09:34:03.878000",
+                        "updated_at": "2025-06-20T09:34:03.902000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "ac76f7af-c7ad-4998-91be-3bdd55a92d31",
+                        "url": "https://www.instagram.com/reel/C5GVyFaPVpF/?igsh=djFuOGtlY3ExOGd6",
+                        "description": "Video of Cherry Blossoms in Shinjuku Gyoen National Garden.",
+                        "created_at": "2025-06-20T09:34:03.879000",
+                        "updated_at": "2025-06-20T09:34:03.902000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "57400af3-733c-478a-86e1-c044bba66a8e",
+                        "url": "https://www.instagram.com/reel/C6s8L1Hv4Ko/?igsh=MTdobzdubndtdXQwaA==",
+                        "description": "Video of Tourist sharing her experience at Shinjuku Gyoen National Garden.",
+                        "created_at": "2025-06-20T09:34:03.879000",
+                        "updated_at": "2025-06-20T09:34:03.902000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "54e31389-7684-44d4-95cc-b1d553578645",
+                        "url": "https://www.instagram.com/reel/CWV-jNGFKwg/?igsh=bmNjbDV4ajVxMjIz",
+                        "description": "Video of Shinjuku Gyoen National Garden.",
+                        "created_at": "2025-06-20T09:34:03.879000",
+                        "updated_at": "2025-06-20T09:34:03.902000",
+                        "_cls": "MediaContent"
+                    }
+                ],
+                "youtube_videos": [
+                    {
+                        "id": "06c7ed6a-10f6-4174-9e11-238a947e1574",
+                        "url": "https://www.youtube.com/watch?v=j7PRwoA2BIo",
+                        "description": "Witness Shinjuku Gyoen National Garden through a tourist's captivating video tour.",
+                        "created_at": "2025-06-20T09:34:03.880000",
+                        "updated_at": "2025-06-20T09:34:03.902000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "7e5fd2ec-fce2-4c19-9acb-2ddd36393865",
+                        "url": "https://www.youtube.com/watch?v=mHYW02iYdRw",
+                        "description": "Explore the marvel of Shinjuku Gyoen National Garden through the lens of a tourist.",
+                        "created_at": "2025-06-20T09:34:03.880000",
+                        "updated_at": "2025-06-20T09:34:03.902000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "fcb43cec-54e6-4903-9f9b-9b0e776fe76c",
+                        "url": "https://youtu.be/JTKq_p31hyU?si=FvZvYc1dwY_duwmT",
+                        "description": "Experience Tokyo's Shinjuku Gyoen National Garden, a spectacular display of diverse cherry blossoms!",
+                        "created_at": "2025-06-20T09:34:03.881000",
+                        "updated_at": "2025-06-20T09:34:03.902000",
+                        "_cls": "MediaContent"
+                    }
+                ],
+                "youtube_shorts": [
+                    {
+                        "id": "f889c6c7-48cf-450d-b9ca-79de321a2aaf",
+                        "url": "https://www.youtube.com/shorts/R4mVAzHKxQg?feature=share",
+                        "description": "Experience the rush of tourists exploring the picturesque Shinjuku Gyoen National Garden in this captivating video.",
+                        "created_at": "2025-06-20T09:34:03.882000",
+                        "updated_at": "2025-06-20T09:34:03.902000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "17597933-1f13-48b1-b8e2-a609b3ba1596",
+                        "url": "https://youtube.com/shorts/pBBDo5cWUh4?si=ZfGvxyulz_BKJxPn",
+                        "description": "Experience the captivating beauty of Shinjuku Gyoen National Garden in this stunning video.",
+                        "created_at": "2025-06-20T09:34:03.882000",
+                        "updated_at": "2025-06-20T09:34:03.902000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "010bc743-74b0-4686-9e97-5b9bd98e6b17",
+                        "url": "https://www.youtube.com/shorts/dcYNrNuZzrY?feature=share",
+                        "description": "Unearth Tokyo's Hidden Gem - The Shinjuku Gyoen National Garden!",
+                        "created_at": "2025-06-20T09:34:03.882000",
+                        "updated_at": "2025-06-20T09:34:03.902000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "820d8bc3-e90f-4d40-9061-374a7351677e",
+                        "url": "https://www.youtube.com/shorts/2Nt-yCHSqG4?feature=share",
+                        "description": "Captivating beauty of Shinjuku Gyoen National Garden - an unforgettable must-visit!",
+                        "created_at": "2025-06-20T09:34:03.883000",
+                        "updated_at": "2025-06-20T09:34:03.902000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "6a15d410-1b1b-4d93-9e6c-49713a4ad5f8",
+                        "url": "https://www.youtube.com/shorts/4_dWrqySQdo?feature=share",
+                        "description": "Embark on an enchanting journey to Shinjuku Gyoen National Garden!",
+                        "created_at": "2025-06-20T09:34:03.883000",
+                        "updated_at": "2025-06-20T09:34:03.902000",
+                        "_cls": "MediaContent"
+                    }
+                ],
+                "verified_videos": [
+                    {
+                        "id": "1c66ac6f-4c51-4ae8-aba1-e9701dcd8648",
+                        "url": "https://youtu.be/0bs0wi22TSU?t=69",
+                        "description": "Overview of Shinjuku Gyoen National Garden",
+                        "created_at": "2025-06-20T09:34:03.884000",
+                        "updated_at": "2025-06-20T09:34:03.902000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "a0971e54-3e35-470e-ad6d-bf9352298132",
+                        "url": "https://youtu.be/mHYW02iYdRw?t=185",
+                        "description": "Guide to the Shinjuku Gyoen National Garden",
+                        "created_at": "2025-06-20T09:34:03.884000",
+                        "updated_at": "2025-06-20T09:34:03.902000",
+                        "_cls": "MediaContent"
+                    }
+                ],
+                "highlights": [
+                    {
+                        "order": 1,
+                        "text": "The garden boasts over 1,000 cherry trees, making it a popular destination for cherry blossom viewing (hanami) during the spring months.",
+                        "_cls": "Highlight"
+                    },
+                    {
+                        "order": 2,
+                        "text": "Shinjuku Gyoen combines three distinct garden styles: Japanese traditional, English landscape, and French formal.",
+                        "_cls": "Highlight"
+                    },
+                    {
+                        "order": 3,
+                        "text": "Explore a restored Meiji-era greenhouse showcasing over 1,700 tropical and subtropical plant species year-round.",
+                        "_cls": "Highlight"
+                    }
+                ],
+                "long_description": "Experience the tranquil beauty of Shinjuku Gyoen, Tokyo’s stunning garden blending Japanese, French, and English landscapes. Wander through lush greenery, vibrant cherry blossoms in spring, and fiery autumn leaves, making it a must-visit escape from the city’s fast pace. Perfect for relaxation, photography, and cultural immersion!",
+                "short_description": "Wander through lush greenery, vibrant cherry blossoms in spring, and fiery autumn leaves, making it a must-visit."
+            },
+            "constraints": {
+                "age": {
+                    "minimum": 0,
+                    "maximum": 100,
+                    "description": "Visitors of all ages are welcome to explore the garden."
+                },
+                "mobility": {
+                    "wheelchair_accessible": true,
+                    "walking_required": true,
+                    "stairs_present": true,
+                    "seating_available": true,
+                    "flat_terrain": false,
+                    "hiking_required": false,
+                    "elevator_available": false,
+                    "mobility_scooter_friendly": true,
+                    "ramps_available": true,
+                    "description": "Garden is mostly accessible with some stairs; seating and ramps available."
+                },
+                "pregnancy": {
+                    "is_suitable": true,
+                    "description": "Pregnant visitors can enjoy the garden with no specific restrictions.",
+                    "is_allowed": true
+                },
+                "pets": {
+                    "are_suitable": false,
+                    "are_allowed": false,
+                    "description": "Pets are not allowed inside the garden to protect the environment."
+                },
+                "driving_constraints": {
+                    "driving_license_required": false,
+                    "idp_required": false,
+                    "description": "No driving needed; public transport access recommended for visitors."
+                }
+            },
+            "group_type_suitability": {
+                "families": {
+                    "is_suitable": true,
+                    "description": ""
+                },
+                "couples": {
+                    "is_suitable": true,
+                    "description": ""
+                },
+                "solo_travelers": {
+                    "is_suitable": true,
+                    "description": ""
+                },
+                "groups": {
+                    "is_suitable": true,
+                    "description": "",
+                    "minimum_size": 2,
+                    "maximum_size": 30
+                }
+            },
+            "price": {
+                "currency": "INR",
+                "upper_bound": 280.0,
+                "lower_bound": 140.0,
+                "description": null
+            },
+            "tags": {
+                "must_do": true,
+                "hidden_gem": false,
+                "luxury": false,
+                "budget": false,
+                "touristy": true,
+                "off_beat": false
+            },
+            "sentiments": {
+                "positive": [
+                    {
+                        "id": "d6c77226-6668-4b60-8c9f-6aca183edd6e",
+                        "text": "One of the best experiences in Shinjuku is a visit to Shinjuku Gyoen, a stunning urban oasis with lush gardens, seasonal blooms, and a peaceful escape from the city buzz.",
+                        "source_type": "youtube_video",
+                        "source_link": "https://www.youtube.com/watch?v=E0lKcUoLCCo",
+                        "timestamp": "04:46",
+                        "created_at": "2025-06-20T09:34:03.887000",
+                        "updated_at": "2025-06-20T09:34:03.887000"
+                    }
+                ],
+                "negative": [],
+                "viareel_sentiments": []
+            },
+            "seasonal_information": {
+                "january": {
+                    "is_recommended": false,
+                    "weather": {
+                        "minimum_temperature": 1.0,
+                        "maximum_temperature": 10.0,
+                        "average_temperature": 5.0,
+                        "temperature_unit": "celsius",
+                        "precipitation_chance": 20.0,
+                        "description": "January is cold and dry in Tokyo, with crisp air and rare rainfall. The garden is open, but plant life is mostly dormant and not at its most scenic."
+                    },
+                    "crowd_levels": {
+                        "level": "low",
+                        "description": "Visitor numbers are low, making for a peaceful and quiet experience."
+                    },
+                    "is_peak_season": false,
+                    "is_price_higher_than_usual": false,
+                    "availability": {
+                        "is_available": true,
+                        "restrictions": "No major restrictions; standard operations apply."
+                    },
+                    "description": "Winter offers a tranquil visit but lacks seasonal flowers and greenery. Dress warmly for outdoor exploration.",
+                    "created_at": "2025-06-20T09:34:03.888000",
+                    "updated_at": "2025-06-20T09:34:03.888000"
+                },
+                "february": {
+                    "is_recommended": false,
+                    "weather": {
+                        "minimum_temperature": 2.0,
+                        "maximum_temperature": 11.0,
+                        "average_temperature": 6.0,
+                        "temperature_unit": "celsius",
+                        "precipitation_chance": 25.0,
+                        "description": "February remains cold, though days gradually lengthen. Early plum blossoms may appear, but gardens are still largely dormant."
+                    },
+                    "crowd_levels": {
+                        "level": "low",
+                        "description": "Few tourists visit, ensuring a very calm atmosphere."
+                    },
+                    "is_peak_season": false,
+                    "is_price_higher_than_usual": false,
+                    "availability": {
+                        "is_available": true,
+                        "restrictions": "No major restrictions; standard operations apply."
+                    },
+                    "description": "A quiet time with little floral activity, good for those seeking solitude.",
+                    "created_at": "2025-06-20T09:34:03.888000",
+                    "updated_at": "2025-06-20T09:34:03.888000"
+                },
+                "march": {
+                    "is_recommended": true,
+                    "weather": {
+                        "minimum_temperature": 5.0,
+                        "maximum_temperature": 15.0,
+                        "average_temperature": 10.0,
+                        "temperature_unit": "celsius",
+                        "precipitation_chance": 30.0,
+                        "description": "Mild temperatures mark the start of spring. From late March, cherry blossoms begin to bloom, drawing more visitors. Occasional rainfall is possible."
+                    },
+                    "crowd_levels": {
+                        "level": "medium",
+                        "description": "Crowds increase significantly during late March as cherry blossom season begins."
+                    },
+                    "is_peak_season": true,
+                    "is_price_higher_than_usual": false,
+                    "availability": {
+                        "is_available": true,
+                        "restrictions": "No major restrictions, but special regulations apply around cherry blossom viewing season. Running is not allowed during the Spring Special Opening Period (March 20–April 24)."
+                    },
+                    "description": "One of the best times to visit for cherry blossom viewing. The garden hosts a Spring Special Opening Period, and some areas may be restricted for event preparation.",
+                    "created_at": "2025-06-20T09:34:03.889000",
+                    "updated_at": "2025-06-20T09:34:03.889000"
+                },
+                "april": {
+                    "is_recommended": true,
+                    "weather": {
+                        "minimum_temperature": 10.0,
+                        "maximum_temperature": 20.0,
+                        "average_temperature": 15.0,
+                        "temperature_unit": "celsius",
+                        "precipitation_chance": 40.0,
+                        "description": "April is peak spring, with cherry blossoms at their best early in the month and lush greenery emerging. Rainfall is more frequent."
+                    },
+                    "crowd_levels": {
+                        "level": "high",
+                        "description": "April is extremely popular due to cherry blossom season and school holidays. Expect large crowds, especially during weekends and peak bloom."
+                    },
+                    "is_peak_season": true,
+                    "is_price_higher_than_usual": false,
+                    "availability": {
+                        "is_available": true,
+                        "restrictions": "Some lawn areas near Shinjuku Gate and Tamamo pond are closed from April 15 to the end of October for maintenance. Running is not allowed during the Spring Special Opening Period (March 20–April 24)."
+                    },
+                    "description": "April is the highlight of the year for Shinjuku Gyoen, famed for its cherry blossoms and vibrant landscapes. Some areas may be temporarily closed for lawn maintenance.",
+                    "created_at": "2025-06-20T09:34:03.890000",
+                    "updated_at": "2025-06-20T09:34:03.890000"
+                },
+                "may": {
+                    "is_recommended": true,
+                    "weather": {
+                        "minimum_temperature": 15.0,
+                        "maximum_temperature": 23.0,
+                        "average_temperature": 19.0,
+                        "temperature_unit": "celsius",
+                        "precipitation_chance": 30.0,
+                        "description": "May in Tokyo is pleasantly warm with comfortable temperatures and moderate humidity. Occasional rain showers are possible but not frequent."
+                    },
+                    "crowd_levels": {
+                        "level": "medium",
+                        "description": "Visitor numbers are moderate, with fewer crowds than cherry blossom season but still popular among locals and tourists seeking spring scenery."
+                    },
+                    "is_peak_season": false,
+                    "is_price_higher_than_usual": false,
+                    "availability": {
+                        "is_available": true,
+                        "restrictions": "Certain lawn areas near Shinjuku Gate and Tamamo pond are closed from April 15 to the end of October for maintenance. Running is only permitted on designated paths."
+                    },
+                    "description": "May offers lush greenery, blooming flowers, and comfortable weather. The garden is open to the public, though some lawn areas are off-limits for restoration.",
+                    "created_at": "2025-06-20T09:34:03.890000",
+                    "updated_at": "2025-06-20T09:34:03.890000"
+                },
+                "june": {
+                    "is_recommended": true,
+                    "weather": {
+                        "minimum_temperature": 18.0,
+                        "maximum_temperature": 25.0,
+                        "average_temperature": 21.0,
+                        "temperature_unit": "celsius",
+                        "precipitation_chance": 50.0,
+                        "description": "June marks the start of the rainy season (tsuyu) in Tokyo, so expect increased humidity and frequent rain. Temperatures remain mild to warm."
+                    },
+                    "crowd_levels": {
+                        "level": "low",
+                        "description": "Due to the rainy season, fewer visitors come to the garden, making it less crowded and more tranquil."
+                    },
+                    "is_peak_season": false,
+                    "is_price_higher_than_usual": false,
+                    "availability": {
+                        "is_available": true,
+                        "restrictions": "Lawn area closures near Shinjuku Gate and Tamamo pond continue. Some paths may be slippery during rain."
+                    },
+                    "description": "Though June is wetter, the garden is open and features hydrangeas and fresh greenery. Visitors can enjoy peaceful strolls with minimal crowds.",
+                    "created_at": "2025-06-20T09:34:03.891000",
+                    "updated_at": "2025-06-20T09:34:03.891000"
+                },
+                "july": {
+                    "is_recommended": false,
+                    "weather": {
+                        "minimum_temperature": 22.0,
+                        "maximum_temperature": 29.0,
+                        "average_temperature": 25.0,
+                        "temperature_unit": "celsius",
+                        "precipitation_chance": 40.0,
+                        "description": "July is hot and humid in Tokyo as summer sets in. There are frequent rain showers, especially early in the month."
+                    },
+                    "crowd_levels": {
+                        "level": "low",
+                        "description": "High heat and humidity deter many visitors, resulting in low crowd levels throughout the garden."
+                    },
+                    "is_peak_season": false,
+                    "is_price_higher_than_usual": false,
+                    "availability": {
+                        "is_available": true,
+                        "restrictions": "Lawn area closures near Shinjuku Gate and Tamamo pond continue. Stay hydrated and avoid outdoor activities during peak heat."
+                    },
+                    "description": "July is best avoided due to heat and humidity, but the garden is open with shaded areas for respite. Some visitors enjoy quiet summer walks.",
+                    "created_at": "2025-06-20T09:34:03.892000",
+                    "updated_at": "2025-06-20T09:34:03.892000"
+                },
+                "august": {
+                    "is_recommended": false,
+                    "weather": {
+                        "minimum_temperature": 24.0,
+                        "maximum_temperature": 32.0,
+                        "average_temperature": 27.0,
+                        "temperature_unit": "celsius",
+                        "precipitation_chance": 40.0,
+                        "description": "August is the hottest month in Tokyo, characterized by high humidity and occasional thunderstorms. Heat can be intense, especially midday."
+                    },
+                    "crowd_levels": {
+                        "level": "low",
+                        "description": "Few visitors come during peak summer heat, keeping the garden quiet and uncrowded."
+                    },
+                    "is_peak_season": false,
+                    "is_price_higher_than_usual": false,
+                    "availability": {
+                        "is_available": true,
+                        "restrictions": "Lawn area closures near Shinjuku Gate and Tamamo pond continue. Hot weather precautions are advised."
+                    },
+                    "description": "August is not ideal for visiting due to extreme heat and humidity, but the garden remains open for those seeking a quiet escape.",
+                    "created_at": "2025-06-20T09:34:03.892000",
+                    "updated_at": "2025-06-20T09:34:03.892000"
+                },
+                "september": {
+                    "is_recommended": true,
+                    "weather": {
+                        "minimum_temperature": 20.0,
+                        "maximum_temperature": 28.0,
+                        "average_temperature": 24.0,
+                        "temperature_unit": "celsius",
+                        "precipitation_chance": 45.0,
+                        "description": "Late summer with warm temperatures and high humidity. Rain is fairly common, as September is part of Tokyo's typhoon season, but the gardens are lush and green."
+                    },
+                    "crowd_levels": {
+                        "level": "medium",
+                        "description": "Visitor numbers are moderate as it is after the main summer vacation period but before the autumn foliage season begins."
+                    },
+                    "is_peak_season": false,
+                    "is_price_higher_than_usual": false,
+                    "availability": {
+                        "is_available": true,
+                        "restrictions": "Certain lawn areas may be inaccessible due to maintenance until the end of October."
+                    },
+                    "description": "A good time to visit for greenery and relative calm, though visitors should prepare for occasional rain and some area restrictions.",
+                    "created_at": "2025-06-20T09:34:03.893000",
+                    "updated_at": "2025-06-20T09:34:03.893000"
+                },
+                "october": {
+                    "is_recommended": true,
+                    "weather": {
+                        "minimum_temperature": 15.0,
+                        "maximum_temperature": 23.0,
+                        "average_temperature": 19.0,
+                        "temperature_unit": "celsius",
+                        "precipitation_chance": 30.0,
+                        "description": "Comfortable autumn weather begins, with cooler temperatures and decreasing humidity. Rainfall lessens, and the garden transitions from lush green to hints of autumn colors."
+                    },
+                    "crowd_levels": {
+                        "level": "medium",
+                        "description": "Visitor numbers remain moderate. Popular with those seeking early autumn tranquility before the main foliage period."
+                    },
+                    "is_peak_season": false,
+                    "is_price_higher_than_usual": false,
+                    "availability": {
+                        "is_available": true,
+                        "restrictions": "Some lawn areas may still be restricted for maintenance until the end of October."
+                    },
+                    "description": "October offers some of the most pleasant weather for strolling. The garden is accessible, with limited area restrictions.",
+                    "created_at": "2025-06-20T09:34:03.894000",
+                    "updated_at": "2025-06-20T09:34:03.894000"
+                },
+                "november": {
+                    "is_recommended": true,
+                    "weather": {
+                        "minimum_temperature": 9.0,
+                        "maximum_temperature": 18.0,
+                        "average_temperature": 14.0,
+                        "temperature_unit": "celsius",
+                        "precipitation_chance": 20.0,
+                        "description": "Cool, crisp air and clear skies. November is peak autumn foliage season, with vibrant colors and special events like the chrysanthemum exhibition."
+                    },
+                    "crowd_levels": {
+                        "level": "high",
+                        "description": "November is one of the busiest months due to the popularity of autumn leaves and the chrysanthemum flower beds exhibition (November 1–15)."
+                    },
+                    "is_peak_season": true,
+                    "is_price_higher_than_usual": false,
+                    "availability": {
+                        "is_available": true,
+                        "restrictions": "No major restrictions. All main areas are accessible."
+                    },
+                    "description": "Peak season for autumn foliage and special flower exhibitions. Expect crowds, especially on weekends and event days.",
+                    "created_at": "2025-06-20T09:34:03.894000",
+                    "updated_at": "2025-06-20T09:34:03.894000"
+                },
+                "december": {
+                    "is_recommended": true,
+                    "weather": {
+                        "minimum_temperature": 3.0,
+                        "maximum_temperature": 12.0,
+                        "average_temperature": 8.0,
+                        "temperature_unit": "celsius",
+                        "precipitation_chance": 10.0,
+                        "description": "Chilly and dry with clear skies. Late autumn foliage remains in early December, transitioning to winter scenery."
+                    },
+                    "crowd_levels": {
+                        "level": "low",
+                        "description": "After the peak foliage, visitor numbers drop, offering a peaceful experience."
+                    },
+                    "is_peak_season": false,
+                    "is_price_higher_than_usual": false,
+                    "availability": {
+                        "is_available": true,
+                        "restrictions": "No special restrictions. Full access to the garden."
+                    },
+                    "description": "A tranquil time to visit, ideal for those seeking quiet walks and winter landscapes. Facilities operate as usual.",
+                    "created_at": "2025-06-20T09:34:03.895000",
+                    "updated_at": "2025-06-20T09:34:03.895000"
+                }
+            },
+            "timing_guide": {
+                "recommended_time_slots": ["morning", "afternoon"],
+                "monday": {
+                    "start_time": "9:00 AM",
+                    "end_time": "4:00 PM",
+                    "description": "Garden open from 9:00 AM to 4:00 PM. Closed on Mondays unless it falls during cherry blossom or chrysanthemum seasons.",
+                    "is_closed": false
+                },
+                "tuesday": {
+                    "start_time": "9:00 AM",
+                    "end_time": "4:00 PM",
+                    "description": "Garden open from 9:00 AM to 4:00 PM.",
+                    "is_closed": false
+                },
+                "wednesday": {
+                    "start_time": "9:00 AM",
+                    "end_time": "4:00 PM",
+                    "description": "Garden open from 9:00 AM to 4:00 PM.",
+                    "is_closed": false
+                },
+                "thursday": {
+                    "start_time": "9:00 AM",
+                    "end_time": "4:00 PM",
+                    "description": "Garden open from 9:00 AM to 4:00 PM.",
+                    "is_closed": false
+                },
+                "friday": {
+                    "start_time": "9:00 AM",
+                    "end_time": "4:00 PM",
+                    "description": "Garden open from 9:00 AM to 4:00 PM.",
+                    "is_closed": false
+                },
+                "saturday": {
+                    "start_time": "9:00 AM",
+                    "end_time": "4:00 PM",
+                    "description": "Garden open from 9:00 AM to 4:00 PM.",
+                    "is_closed": false
+                },
+                "sunday": {
+                    "start_time": "9:00 AM",
+                    "end_time": "4:00 PM",
+                    "description": "Garden open from 9:00 AM to 4:00 PM.",
+                    "is_closed": false
+                }
+            },
+            "transport_options": {
+                "bus": true,
+                "metro": true,
+                "train": true,
+                "taxi": true,
+                "car": true,
+                "bike": false,
+                "cable_car": false,
+                "walking": true,
+                "shuttle_service": false,
+                "boat_service": false,
+                "ferry_service": false,
+                "description": "Shinjuku Gyoen National Garden is conveniently accessible via public transportation. The nearest stations are Shinjuku Station (JR lines), Shinjuku-gyoemmae Station (Tokyo Metro Marunouchi Line), and Sendagaya Station (JR Chuo-Sobu Line). From these stations, the garden is a short walk away. While driving is an option, parking facilities are limited; thus, utilizing public transport is recommended for ease and convenience.",
+                "recommended_option": ["train", "walking", "metro"]
+            },
+            "tips": [],
+            "suggestion_priority": 0,
+            "is_ticket_required": null,
+            "recommended_mode": null,
+            "booking_window": null,
+            "created_at": "2025-02-10T15:50:57.678000Z",
+            "updated_at": "2025-06-20T09:34:03.907000Z"
+        },
+        {
+            "id": "6815a301e8ab27cae1a48e91",
+            "name": "Experience panoramic views at Metropolitan Government Building",
+            "identifier": "tokyo-tokyo-metropolitan-government-building-observation-deck",
+            "alternate_name": "Tochō Observation Decks",
+            "base_city": {
+                "id": "67a31ecc3a326523de0232f0",
+                "name": "Tokyo",
+                "province": null,
+                "country": {
+                    "id": "67a31d03aa84ea4b97d24fa5",
+                    "name": "Japan",
+                    "region": {
+                        "id": "67a226f552ed76c889bcb13a",
+                        "name": "East Asia",
+                        "created_at": "2025-02-04T14:40:53.491000Z",
+                        "updated_at": "2025-02-04T14:40:53.491000Z"
+                    },
+                    "created_at": "2025-02-05T08:10:43.317000Z",
+                    "updated_at": "2025-02-05T08:10:43.317000Z"
+                },
+                "experience_count": 62,
+                "created_at": "2025-02-05T08:18:20.563000Z",
+                "updated_at": "2025-02-05T08:18:20.563000Z"
+            },
+            "alternate_base_city": null,
+            "categories": ["Architecture", "Family", "Landmarks", "Nightlife", "Observation Decks", "Outdoor"],
+            "location": {
+                "address": "2-8-1 Nishi-Shinjuku, Shinjuku City, Tokyo 163-8001, Japan",
+                "latitude": 35.6896,
+                "longitude": 139.6917,
+                "location_summary": "Located in Nishi-Shinjuku, Tokyo, the Tokyo Metropolitan Government Building Observation Deck is easily accessible from Shinjuku Station and offers a panoramic vantage point over the city.",
+                "zipcode": "163-8001"
+            },
+            "verification_info": null,
+            "visibility_info": {
+                "is_published_on_rimigo": true,
+                "visibility_updated_by": null,
+                "last_visibility_updated_at": null,
+                "description": null
+            },
+            "display_props": {
+                "name": "Experience panoramic views at Metropolitan Government Building",
+                "landscape_image": "https://thetruejapan.com/wp-content/uploads/2017/06/Tokyo-metropolitan-government-building.jpg",
+                "portrait_image": "https://i.pinimg.com/originals/25/91/92/259192279801ee8322eefb9c0d01784b.jpg",
+                "reel": "https://www.instagram.com/reel/DDbmckMyvmo/?igsh=MXFhbzAzcGVkOWhwdg==",
+                "video": "https://www.youtube.com/watch?v=9YrG0YQg0f0&t=1685s",
+                "short": "Marvel at Tokyo’s skyline from the Metropolitan Government Building Observation Deck, where breathtaking cityscapes and even Mount Fuji await—completely free! Whether day or night, the view is a must-see for any visitor.",
+                "description": "Marvel at Tokyo’s skyline from the Metropolitan Government Building Observation Deck, where breathtaking cityscapes and even Mount Fuji await—completely free! Whether day or night, the view is a must-see for any visitor."
+            },
+            "content": {
+                "verified_photos": [
+                    {
+                        "id": "17de4bdb-c041-43dd-a9d2-1f418c1ad26e",
+                        "url": "https://www.travelingjapan.net/wp-content/uploads/2022/10/night-view-seen-from-tokyo-metropolitan-government-building-observatory-4-1536x1024.jpg",
+                        "description": "Image of Evening View from Tokyo Metropolitan Government Building Observation Deck with City lights.",
+                        "created_at": "2025-06-17T13:10:40.639000",
+                        "updated_at": "2025-06-17T13:10:40.661000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "65f98a84-3288-4800-a104-fd6e6e673dfe",
+                        "url": "https://s3.voyapon.com/wp-content/uploads/2020/09/05222453/Observatory-of-the-Tokyo-Metropolitan-Government-Building.jpg",
+                        "description": "Image of Visitors standing at the Observation deck, gazing at the city from Tokyo Metropolitan Government Building.",
+                        "created_at": "2025-06-17T13:10:40.639000",
+                        "updated_at": "2025-06-17T13:10:40.661000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "2df8532d-0c54-4e4a-9fee-0069a3b078a7",
+                        "url": "https://media.timeout.com/images/105454647/image.jpg",
+                        "description": "Wide-angle image capturing the sprawling cityscape of Tokyo from Metropolitan Government Building.",
+                        "created_at": "2025-06-17T13:10:40.639000",
+                        "updated_at": "2025-06-17T13:10:40.661000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "b2a0c8f5-039a-4668-baef-20ce3b8c8932",
+                        "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/51/f1/61/tokyo-metropolitan-government.jpg?w=1400&h=-1&s=1",
+                        "description": "The image showcases the Metropolitan Government Building in Tokyo, featuring a modern architectural design reaching towards a clear blue sky.",
+                        "created_at": "2025-06-17T13:10:40.639000",
+                        "updated_at": "2025-06-17T13:10:40.661000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "f26f0cbf-da87-4fed-b621-1d7df2f13916",
+                        "url": "https://s3.voyapon.com/wp-content/uploads/2020/09/05222445/Bunkyo-City-Hall-Observatory-1024x814.jpg",
+                        "description": "Interior image of observation deck of Tokyo Metropolitan Government Building.",
+                        "created_at": "2025-06-17T13:10:40.640000",
+                        "updated_at": "2025-06-17T13:10:40.661000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "ea210efc-2e4f-4d31-a768-e8cf111f660c",
+                        "url": "https://tokyotourists.com/wp-content/uploads/2023/03/Visitors-at-Deck-1024x583.jpg",
+                        "description": "Image of Visitors at Tokyo Metropolitan Government Building Observation Deck.",
+                        "created_at": "2025-06-17T13:10:40.640000",
+                        "updated_at": "2025-06-17T13:10:40.661000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "6f770b63-757b-4248-b520-406698f51827",
+                        "url": "https://d2cdo4blch85n8.cloudfront.net/wp-content/uploads/2024/03/Largest-Projection-On-Tokyo-Metropolitan-Government-Building.jpg",
+                        "description": "Light Show at Tokyo Metropolitan Government Building.",
+                        "created_at": "2025-06-17T13:10:40.640000",
+                        "updated_at": "2025-06-17T13:10:40.661000",
+                        "_cls": "MediaContent"
+                    }
+                ],
+                "instagram_reels": [
+                    {
+                        "id": "47f04631-9bf4-4993-af55-62e57d08e844",
+                        "url": "https://www.instagram.com/reel/DFK5ILlMjDr/?igsh=MTZocGlkcDc2OHVzMQ==",
+                        "description": "Video of visitor sharing tips on visiting Tokyo Metropolitan Government Building Observation deck.",
+                        "created_at": "2025-06-17T13:10:40.641000",
+                        "updated_at": "2025-06-17T13:10:40.662000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "3c500fbd-4aad-4b8c-819c-0fa4411c8176",
+                        "url": "https://www.instagram.com/reel/C3xx1DXPimL/?igsh=bjQ5a3VpeGhpM3dp",
+                        "description": "Video of light show at Tokyo Metropolitan Government Building.",
+                        "created_at": "2025-06-17T13:10:40.641000",
+                        "updated_at": "2025-06-17T13:10:40.662000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "facb7afc-2d32-45f1-a582-0eb6766f1da7",
+                        "url": "https://www.instagram.com/reel/DBtmRd-t2L3/?igsh=c2tvenpteWJoYWFl",
+                        "description": "Video of visitor talking about visiting Tokyo Metropolitan Government Building.",
+                        "created_at": "2025-06-17T13:10:40.642000",
+                        "updated_at": "2025-06-17T13:10:40.662000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "622b4285-20c0-4dce-b00d-ff604f8fec93",
+                        "url": "https://www.instagram.com/reel/CqBmWgCBHEc/?igsh=MWhqODhqZGRycnFsZg==",
+                        "description": "Video of tourist visiting Tokyo Metropolitan Government Building observation deck.",
+                        "created_at": "2025-06-17T13:10:40.642000",
+                        "updated_at": "2025-06-17T13:10:40.662000",
+                        "_cls": "MediaContent"
+                    }
+                ],
+                "youtube_videos": [
+                    {
+                        "id": "ec524aa8-8071-45ab-8dea-f0466571264b",
+                        "url": "https://www.youtube.com/watch?v=oGDpiUxGPvU",
+                        "description": "Embark on a visit to Tokyo Metropolitan Government Building's observation deck through this captivating video.",
+                        "created_at": "2025-06-17T13:10:40.643000",
+                        "updated_at": "2025-06-17T13:10:40.662000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "7b052bd6-7a3f-4596-a725-aac6b16b137a",
+                        "url": "https://www.youtube.com/watch?v=7o9qwzNdleE",
+                        "description": "Witness breathtaking view from Tokyo Metropolitan Government Building's observation deck on a tourist's visit!",
+                        "created_at": "2025-06-17T13:10:40.643000",
+                        "updated_at": "2025-06-17T13:10:40.662000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "d7200470-cd87-482a-9e5e-0a7fd2b12cbb",
+                        "url": "https://www.youtube.com/watch?v=9YrG0YQg0f0&t=1685s",
+                        "description": "Experience the Tokyo Metropolitan Government Building Observatory, a guided walk through its soaring perspectives!",
+                        "created_at": "2025-06-17T13:10:40.643000",
+                        "updated_at": "2025-06-17T13:10:40.662000",
+                        "_cls": "MediaContent"
+                    }
+                ],
+                "youtube_shorts": [
+                    {
+                        "id": "ccc2f201-c906-4fcb-bd13-62d52501c348",
+                        "url": "https://www.youtube.com/shorts/e5Dq5zuFM0g",
+                        "description": "Captivating view from Tokyo Metropolitan Government Building's observation deck in this video.",
+                        "created_at": "2025-06-17T13:10:40.644000",
+                        "updated_at": "2025-06-17T13:10:40.662000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "cc4ede9c-494d-458c-bdcd-9a6b05042d01",
+                        "url": "https://www.youtube.com/shorts/YYPj6HxJ_ms",
+                        "description": "Experience the breathtaking view from Tokyo Metropolitan Government Building's observation deck!",
+                        "created_at": "2025-06-17T13:10:40.644000",
+                        "updated_at": "2025-06-17T13:10:40.662000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "cff2e4f8-cb93-4ade-9fe1-8cc5ab48a9e8",
+                        "url": "https://www.youtube.com/shorts/8r9GkiUdG5s",
+                        "description": "Witness astounding view from Tokyo Metropolitan Government Building's observation deck in this captivating video.",
+                        "created_at": "2025-06-17T13:10:40.645000",
+                        "updated_at": "2025-06-17T13:10:40.662000",
+                        "_cls": "MediaContent"
+                    }
+                ],
+                "verified_videos": [
+                    {
+                        "id": "edc25b10-554a-44a1-b9b9-6fc59b69b927",
+                        "url": "https://youtu.be/dXfjI-0VNhY?t=1",
+                        "description": "Walkthrough of Tokyo Metropolitan Government Building Observation Deck",
+                        "created_at": "2025-06-17T13:10:40.645000",
+                        "updated_at": "2025-06-17T13:10:40.662000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "883728ef-6112-46ea-b8cf-f16340ef5b56",
+                        "url": "https://www.youtube.com/watch?v=7o9qwzNdleE",
+                        "description": "Guided tour to the observation deck",
+                        "created_at": "2025-06-17T13:10:40.645000",
+                        "updated_at": "2025-06-17T13:10:40.662000",
+                        "_cls": "MediaContent"
+                    }
+                ],
+                "highlights": [
+                    {
+                        "order": 1,
+                        "text": "Ascend to the 45th-floor observation deck via fast elevator for immersive 360° Tokyo skyline vistas.",
+                        "_cls": "Highlight"
+                    },
+                    {
+                        "order": 2,
+                        "text": "Spot famous landmarks like Mount Fuji, Tokyo Skytree, and Meiji Jingu Shrine from above.",
+                        "_cls": "Highlight"
+                    },
+                    {
+                        "order": 3,
+                        "text": "Enjoy free entry and stay as long as you like, ideal for sunset transitions and sparkling nightscape views.",
+                        "_cls": "Highlight"
+                    }
+                ],
+                "long_description": "Soar above Tokyo’s skyline at the Tokyo Metropolitan Government Building Observation Deck, offering stunning 360-degree views of the city—completely free! On clear days, you can spot Mount Fuji, Tokyo Tower, and even Tokyo Skytree from this towering vantage point. Located in Shinjuku, this deck is perfect for day and night visits, showcasing Tokyo’s vibrant city lights after sunset. A must-visit for photographers and travelers seeking breathtaking cityscapes!",
+                "short_description": "Enjoy breathtaking panoramic views of Tokyo from the Metropolitan Government Building Observation Deck, a must-visit spot offering a free cityscape experience."
+            },
+            "constraints": {
+                "age": {
+                    "minimum": 0,
+                    "maximum": 999,
+                    "description": "All ages welcome. No official age restrictions."
+                },
+                "mobility": {
+                    "wheelchair_accessible": true,
+                    "walking_required": true,
+                    "stairs_present": false,
+                    "seating_available": true,
+                    "flat_terrain": true,
+                    "hiking_required": false,
+                    "elevator_available": true,
+                    "mobility_scooter_friendly": true,
+                    "ramps_available": true,
+                    "description": "Elevators and ramps available. Wheelchair friendly."
+                },
+                "pregnancy": {
+                    "is_suitable": true,
+                    "description": "Suitable and allowed for pregnant visitors.",
+                    "is_allowed": true
+                },
+                "pets": {
+                    "are_suitable": false,
+                    "are_allowed": false,
+                    "description": "Pets are not suitable or allowed."
+                },
+                "driving_constraints": {
+                    "driving_license_required": false,
+                    "idp_required": false,
+                    "description": "No driving or license requirements."
+                }
+            },
+            "group_type_suitability": {
+                "families": {
+                    "is_suitable": true,
+                    "description": ""
+                },
+                "couples": {
+                    "is_suitable": true,
+                    "description": ""
+                },
+                "solo_travelers": {
+                    "is_suitable": true,
+                    "description": ""
+                },
+                "groups": {
+                    "is_suitable": true,
+                    "description": "",
+                    "minimum_size": 10,
+                    "maximum_size": 45
+                }
+            },
+            "price": {
+                "currency": "INR",
+                "upper_bound": 0.0,
+                "lower_bound": 0.0,
+                "description": null
+            },
+            "tags": {
+                "must_do": true,
+                "hidden_gem": false,
+                "luxury": false,
+                "budget": true,
+                "touristy": true,
+                "off_beat": false
+            },
+            "sentiments": {
+                "positive": [
+                    {
+                        "id": "ed079351-13d2-4871-b7fb-0148fc1e7ef2",
+                        "text": "The Tokyo Metropolitan Government Building offers stunning panoramic views of Tokyo, all for free, making it one of the best budget-friendly viewpoints in the city.",
+                        "source_type": "youtube_video",
+                        "source_link": "https://www.youtube.com/watch?v=pRZmvBsSius",
+                        "timestamp": "02:41",
+                        "created_at": "2025-06-17T13:10:40.648000",
+                        "updated_at": "2025-06-17T13:10:40.648000"
+                    }
+                ],
+                "negative": [],
+                "viareel_sentiments": []
+            },
+            "seasonal_information": {
+                "january": {
+                    "is_recommended": true,
+                    "weather": {
+                        "minimum_temperature": 2.0,
+                        "maximum_temperature": 10.0,
+                        "average_temperature": 6.0,
+                        "temperature_unit": "celsius",
+                        "precipitation_chance": 40.0,
+                        "description": "Cold and often clear, with occasional rain or snow possible."
+                    },
+                    "crowd_levels": {
+                        "level": "medium",
+                        "description": "Fewer crowds compared to peak seasons, but some visitors due to clear winter views."
+                    },
+                    "is_peak_season": false,
+                    "is_price_higher_than_usual": false,
+                    "availability": {
+                        "is_available": true,
+                        "restrictions": "Observation decks may close due to bad weather; check official site before visiting."
+                    },
+                    "description": "January offers crisp, clear days ideal for panoramic views including Mt. Fuji. The experience is free; the observatory is accessible from Shinjuku Station.",
+                    "created_at": "2025-06-17T13:10:40.649000",
+                    "updated_at": "2025-06-17T13:10:40.649000"
+                },
+                "february": {
+                    "is_recommended": true,
+                    "weather": {
+                        "minimum_temperature": 2.0,
+                        "maximum_temperature": 11.0,
+                        "average_temperature": 7.0,
+                        "temperature_unit": "celsius",
+                        "precipitation_chance": 45.0,
+                        "description": "Cold, with increasing chance of rain as month progresses."
+                    },
+                    "crowd_levels": {
+                        "level": "medium",
+                        "description": "Moderate crowds, slightly more than January due to improving weather."
+                    },
+                    "is_peak_season": false,
+                    "is_price_higher_than_usual": false,
+                    "availability": {
+                        "is_available": true,
+                        "restrictions": "Observation decks may close due to bad weather; check official site before visiting."
+                    },
+                    "description": "February continues to offer good visibility and less congestion. The observatory remains free and accessible.",
+                    "created_at": "2025-06-17T13:10:40.650000",
+                    "updated_at": "2025-06-17T13:10:40.650000"
+                },
+                "march": {
+                    "is_recommended": true,
+                    "weather": {
+                        "minimum_temperature": 5.0,
+                        "maximum_temperature": 14.0,
+                        "average_temperature": 9.0,
+                        "temperature_unit": "celsius",
+                        "precipitation_chance": 55.0,
+                        "description": "Cool to mild, with increasing chance of rain and possible cherry blossom late in the month."
+                    },
+                    "crowd_levels": {
+                        "level": "high",
+                        "description": "Crowds increase due to cherry blossom season, especially late March."
+                    },
+                    "is_peak_season": true,
+                    "is_price_higher_than_usual": false,
+                    "availability": {
+                        "is_available": true,
+                        "restrictions": "Observation decks may close due to bad weather; check official site before visiting."
+                    },
+                    "description": "March can be busy but offers beautiful views, including possible cherry blossom sightings from the observatory. Access remains easy from Shinjuku Station.",
+                    "created_at": "2025-06-17T13:10:40.651000",
+                    "updated_at": "2025-06-17T13:10:40.651000"
+                },
+                "april": {
+                    "is_recommended": true,
+                    "weather": {
+                        "minimum_temperature": 10.0,
+                        "maximum_temperature": 19.0,
+                        "average_temperature": 14.0,
+                        "temperature_unit": "celsius",
+                        "precipitation_chance": 60.0,
+                        "description": "Mild and pleasant, with frequent rain and peak cherry blossom season early in the month."
+                    },
+                    "crowd_levels": {
+                        "level": "high",
+                        "description": "Very crowded due to cherry blossom season and spring break."
+                    },
+                    "is_peak_season": true,
+                    "is_price_higher_than_usual": false,
+                    "availability": {
+                        "is_available": true,
+                        "restrictions": "Observation decks may close due to bad weather; check official site before visiting."
+                    },
+                    "description": "April is one of the busiest months due to cherry blossoms and pleasant weather. The observatory is free and easily accessible.",
+                    "created_at": "2025-06-17T13:10:40.651000",
+                    "updated_at": "2025-06-17T13:10:40.651000"
+                },
+                "may": {
+                    "is_recommended": true,
+                    "weather": {
+                        "minimum_temperature": 15.0,
+                        "maximum_temperature": 23.0,
+                        "average_temperature": 19.0,
+                        "temperature_unit": "celsius",
+                        "precipitation_chance": 35.0,
+                        "description": "Pleasant spring weather with mild temperatures and moderate humidity. Rain is possible but not frequent."
+                    },
+                    "crowd_levels": {
+                        "level": "medium",
+                        "description": "May is a popular month for both domestic and international tourists, but crowding is generally manageable outside of Golden Week holidays."
+                    },
+                    "is_peak_season": false,
+                    "is_price_higher_than_usual": false,
+                    "availability": {
+                        "is_available": true,
+                        "restrictions": "The observatories may occasionally close without notice due to weather or maintenance. Always check the official website for updates."
+                    },
+                    "description": "May is an excellent time to visit the Metropolitan Government Building observatories in Tokyo, offering clear skies and panoramic views with comfortable weather.",
+                    "created_at": "2025-06-17T13:10:40.652000",
+                    "updated_at": "2025-06-17T13:10:40.652000"
+                },
+                "june": {
+                    "is_recommended": true,
+                    "weather": {
+                        "minimum_temperature": 18.0,
+                        "maximum_temperature": 26.0,
+                        "average_temperature": 22.0,
+                        "temperature_unit": "celsius",
+                        "precipitation_chance": 55.0,
+                        "description": "Start of the rainy season (tsuyu) with higher humidity and frequent showers. Temperatures are warm."
+                    },
+                    "crowd_levels": {
+                        "level": "low",
+                        "description": "Fewer tourists visit due to the rainy season, leading to shorter queues and easier access."
+                    },
+                    "is_peak_season": false,
+                    "is_price_higher_than_usual": false,
+                    "availability": {
+                        "is_available": true,
+                        "restrictions": "Check for temporary closures due to weather, as heavy rain or storms may limit visibility or access."
+                    },
+                    "description": "June offers a quieter experience at the observatories, though weather may limit visibility. Still, the attraction remains open with less crowding.",
+                    "created_at": "2025-06-17T13:10:40.652000",
+                    "updated_at": "2025-06-17T13:10:40.652000"
+                },
+                "july": {
+                    "is_recommended": true,
+                    "weather": {
+                        "minimum_temperature": 22.0,
+                        "maximum_temperature": 30.0,
+                        "average_temperature": 26.0,
+                        "temperature_unit": "celsius",
+                        "precipitation_chance": 45.0,
+                        "description": "Warm and humid with occasional rainfall. The rainy season typically ends mid-month, followed by hotter, sunnier days."
+                    },
+                    "crowd_levels": {
+                        "level": "medium",
+                        "description": "Crowds begin to pick up as summer holidays approach, but not as busy as August."
+                    },
+                    "is_peak_season": false,
+                    "is_price_higher_than_usual": false,
+                    "availability": {
+                        "is_available": true,
+                        "restrictions": "Observatories may close for maintenance or due to adverse weather. Always confirm before visiting."
+                    },
+                    "description": "July is suitable for visits, especially in the latter half when the rainy season subsides, bringing better visibility and warmer conditions.",
+                    "created_at": "2025-06-17T13:10:40.653000",
+                    "updated_at": "2025-06-17T13:10:40.653000"
+                },
+                "august": {
+                    "is_recommended": true,
+                    "weather": {
+                        "minimum_temperature": 24.0,
+                        "maximum_temperature": 33.0,
+                        "average_temperature": 28.0,
+                        "temperature_unit": "celsius",
+                        "precipitation_chance": 40.0,
+                        "description": "Hot and humid summer weather. Rain is possible but less frequent than in June. Occasional heat waves."
+                    },
+                    "crowd_levels": {
+                        "level": "high",
+                        "description": "August is peak tourist season due to school holidays and festivals, leading to longer wait times and larger crowds."
+                    },
+                    "is_peak_season": true,
+                    "is_price_higher_than_usual": false,
+                    "availability": {
+                        "is_available": true,
+                        "restrictions": "Open to the public, but may close temporarily for maintenance or severe weather. Check the official website for updates."
+                    },
+                    "description": "Despite the heat and crowds, August is a vibrant month to experience the observatory, especially for night views and festival atmospheres.",
+                    "created_at": "2025-06-17T13:10:40.654000",
+                    "updated_at": "2025-06-17T13:10:40.654000"
+                },
+                "september": {
+                    "is_recommended": true,
+                    "weather": {
+                        "minimum_temperature": 20.0,
+                        "maximum_temperature": 27.0,
+                        "average_temperature": 23.5,
+                        "temperature_unit": "celsius",
+                        "precipitation_chance": 40.0,
+                        "description": "Warm temperatures with moderate humidity and occasional rain showers."
+                    },
+                    "crowd_levels": {
+                        "level": "medium",
+                        "description": "Moderate crowd levels as summer tourists begin to taper off but still active."
+                    },
+                    "is_peak_season": false,
+                    "is_price_higher_than_usual": false,
+                    "availability": {
+                        "is_available": true,
+                        "restrictions": "Observatories may close temporarily due to bad weather or maintenance."
+                    },
+                    "description": "September is a good month to experience panoramic views at the Tokyo Metropolitan Government Building with mild weather and moderate crowds. The observation decks offer clear views of Tokyo landmarks including Mt. Fuji on sunny days.",
+                    "created_at": "2025-06-17T13:10:40.654000",
+                    "updated_at": "2025-06-17T13:10:40.654000"
+                },
+                "october": {
+                    "is_recommended": true,
+                    "weather": {
+                        "minimum_temperature": 14.0,
+                        "maximum_temperature": 22.0,
+                        "average_temperature": 18.0,
+                        "temperature_unit": "celsius",
+                        "precipitation_chance": 30.0,
+                        "description": "Mild and comfortable temperatures with lower humidity and less rain."
+                    },
+                    "crowd_levels": {
+                        "level": "low",
+                        "description": "Lower crowd levels as the weather cools and tourist numbers decrease."
+                    },
+                    "is_peak_season": false,
+                    "is_price_higher_than_usual": false,
+                    "availability": {
+                        "is_available": true,
+                        "restrictions": "Observatories may close temporarily due to bad weather or maintenance."
+                    },
+                    "description": "October is an ideal month to visit the Tokyo Metropolitan Government Building observatories for panoramic views, with pleasant weather, clearer skies, and fewer visitors.",
+                    "created_at": "2025-06-17T13:10:40.655000",
+                    "updated_at": "2025-06-17T13:10:40.655000"
+                },
+                "november": {
+                    "is_recommended": true,
+                    "weather": {
+                        "minimum_temperature": 10.0,
+                        "maximum_temperature": 17.0,
+                        "average_temperature": 13.5,
+                        "temperature_unit": "celsius",
+                        "precipitation_chance": 20.0,
+                        "description": "Cooler temperatures and generally clear, dry weather."
+                    },
+                    "crowd_levels": {
+                        "level": "low",
+                        "description": "Low crowd levels as the tourist season slows further."
+                    },
+                    "is_peak_season": false,
+                    "is_price_higher_than_usual": false,
+                    "availability": {
+                        "is_available": true,
+                        "restrictions": "Observatories may close temporarily due to bad weather or maintenance."
+                    },
+                    "description": "November offers crisp air and clear skies ideal for panoramic city views from the Tokyo Metropolitan Government Building, with minimal crowds.",
+                    "created_at": "2025-06-17T13:10:40.656000",
+                    "updated_at": "2025-06-17T13:10:40.656000"
+                },
+                "december": {
+                    "is_recommended": true,
+                    "weather": {
+                        "minimum_temperature": 4.0,
+                        "maximum_temperature": 12.0,
+                        "average_temperature": 8.0,
+                        "temperature_unit": "celsius",
+                        "precipitation_chance": 15.0,
+                        "description": "Cold but generally dry and clear winter weather."
+                    },
+                    "crowd_levels": {
+                        "level": "medium",
+                        "description": "Crowds increase slightly due to holiday visitors."
+                    },
+                    "is_peak_season": false,
+                    "is_price_higher_than_usual": true,
+                    "availability": {
+                        "is_available": true,
+                        "restrictions": "Observatories may close temporarily due to bad weather or maintenance."
+                    },
+                    "description": "December provides clear panoramic views with crisp winter air. Expect moderate crowds due to holiday season. The observation decks remain free and accessible, with cafes and souvenir shops available.",
+                    "created_at": "2025-06-17T13:10:40.656000",
+                    "updated_at": "2025-06-17T13:10:40.656000"
+                }
+            },
+            "timing_guide": {
+                "recommended_time_slots": ["evening", "morning", "afternoon"],
+                "monday": {
+                    "start_time": "9:30 AM",
+                    "end_time": "10:00 PM",
+                    "description": "South Observatory open from 9:30 AM to 10:00 PM (last admission at 9:30 PM). North Observatory open from 9:30 AM to 5:30 PM (last admission at 5:00 PM).",
+                    "is_closed": false
+                },
+                "tuesday": {
+                    "start_time": "9:30 AM",
+                    "end_time": "10:00 PM",
+                    "description": "South Observatory open from 9:30 AM to 10:00 PM (last admission at 9:30 PM). North Observatory open from 9:30 AM to 5:30 PM (last admission at 5:00 PM).",
+                    "is_closed": false
+                },
+                "wednesday": {
+                    "start_time": "9:30 AM",
+                    "end_time": "10:00 PM",
+                    "description": "South Observatory open from 9:30 AM to 10:00 PM (last admission at 9:30 PM). North Observatory open from 9:30 AM to 5:30 PM (last admission at 5:00 PM).",
+                    "is_closed": false
+                },
+                "thursday": {
+                    "start_time": "9:30 AM",
+                    "end_time": "10:00 PM",
+                    "description": "South Observatory open from 9:30 AM to 10:00 PM (last admission at 9:30 PM). North Observatory open from 9:30 AM to 5:30 PM (last admission at 5:00 PM).",
+                    "is_closed": false
+                },
+                "friday": {
+                    "start_time": "9:30 AM",
+                    "end_time": "10:00 PM",
+                    "description": "South Observatory open from 9:30 AM to 10:00 PM (last admission at 9:30 PM). North Observatory open from 9:30 AM to 5:30 PM (last admission at 5:00 PM).",
+                    "is_closed": false
+                },
+                "saturday": {
+                    "start_time": "9:30 AM",
+                    "end_time": "10:00 PM",
+                    "description": "South Observatory open from 9:30 AM to 10:00 PM (last admission at 9:30 PM). North Observatory open from 9:30 AM to 5:30 PM (last admission at 5:00 PM).",
+                    "is_closed": false
+                },
+                "sunday": {
+                    "start_time": "9:30 AM",
+                    "end_time": "10:00 PM",
+                    "description": "South Observatory open from 9:30 AM to 10:00 PM (last admission at 9:30 PM). North Observatory open from 9:30 AM to 5:30 PM (last admission at 5:00 PM).",
+                    "is_closed": false
+                }
+            },
+            "transport_options": {
+                "bus": true,
+                "metro": true,
+                "train": true,
+                "taxi": true,
+                "car": true,
+                "bike": false,
+                "cable_car": false,
+                "walking": true,
+                "shuttle_service": false,
+                "boat_service": false,
+                "ferry_service": false,
+                "description": "The building is conveniently accessible via public transportation. The closest station is Tochōmae Station on the Toei Oedo Line, located directly beneath the building. Shinjuku Station, served by multiple lines, is a 10-15 minute walk away. An underground passage from Shinjuku Station's B1 floor leads directly to the building, providing shelter from weather conditions.",
+                "recommended_option": ["walking", "train", "metro"]
+            },
+            "tips": [],
+            "suggestion_priority": 2,
+            "is_ticket_required": null,
+            "recommended_mode": null,
+            "booking_window": null,
+            "created_at": "2025-02-10T15:50:57.762000Z",
+            "updated_at": "2025-06-17T13:10:40.666000Z"
+        }
+    ]
+}

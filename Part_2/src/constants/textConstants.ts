@@ -1,0 +1,1 @@
+export const SELECT_TRIP_TEXT = 'Select Trip'

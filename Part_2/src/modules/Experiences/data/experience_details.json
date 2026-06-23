@@ -1,0 +1,749 @@
+{
+    "message": "Success",
+    "response_code": "SS0200",
+    "data": {
+        "experience": {
+            "id": "6815a301e8ab27cae1a48e96",
+            "name": "Walk through iconic Shibuya Crossing",
+            "identifier": "tokyo-shibuya-crossing",
+            "alternate_name": "Scramble Crossing",
+            "base_city": {
+                "id": "67a31ecc3a326523de0232f0",
+                "name": "Tokyo",
+                "province": null,
+                "country": {
+                    "id": "67a31d03aa84ea4b97d24fa5",
+                    "name": "Japan",
+                    "region": {
+                        "id": "67a226f552ed76c889bcb13a",
+                        "name": "East Asia",
+                        "created_at": "2025-02-04T14:40:53.491000Z",
+                        "updated_at": "2025-02-04T14:40:53.491000Z"
+                    },
+                    "created_at": "2025-02-05T08:10:43.317000Z",
+                    "updated_at": "2025-02-05T08:10:43.317000Z"
+                },
+                "experience_count": 64,
+                "created_at": "2025-02-05T08:18:20.563000Z",
+                "updated_at": "2025-02-05T08:18:20.563000Z"
+            },
+            "alternate_base_city": null,
+            "categories": ["Cultural", "Entertainment", "Family", "Landmarks", "Nightlife", "Observation Decks", "Outdoor", "Shopping"],
+            "location": {
+                "address": "2 Chome-2-1 Dogenzaka, Shibuya City, Tokyo 150-0043, Japan",
+                "latitude": 35.6595,
+                "longitude": 139.7006,
+                "location_summary": "Shibuya Crossing is a renowned pedestrian scramble intersection located directly in front of Shibuya Station's Hachiko exit in Tokyo's Shibuya ward. It is famous for the synchronized flow of pedestrians crossing from all directions amidst towering neon signs and digital billboards.",
+                "zipcode": "150-0043"
+            },
+            "verification_info": {
+                "verification_status": "draft",
+                "verified_by": null,
+                "last_verification_updated_at": null,
+                "description": null
+            },
+            "visibility_info": {
+                "is_published_on_rimigo": true,
+                "visibility_updated_by": null,
+                "last_visibility_updated_at": null,
+                "description": null
+            },
+            "display_props": {
+                "name": "Walk through iconic Shibuya Crossing",
+                "landscape_image": "https://media.rimigo.com/images/1761587567_89348d32-a4e6-4bb4-acc0-c1948432e09f.jpg",
+                "portrait_image": "https://media.rimigo.com/images/1761587567_b17b6d0c-212a-496e-9674-64301eec51d9.jpg",
+                "reel": "https://www.instagram.com/reel/C7b6qQFPjbT/?igsh=bGR1cGVqNzQ0OXYw",
+                "video": "https://youtu.be/vQ4Wb0CVYBQ?si=7qx2fR4VPhXUPwf6",
+                "short": "Step into the heartbeat of Tokyo at Shibuya Crossing, where hundreds of people move in perfect sync under dazzling neon lights\u2014a must-see spectacle of urban energy and culture!",
+                "description": "Step into the heartbeat of Tokyo at Shibuya Crossing, where hundreds of people move in perfect sync under dazzling neon lights\u2014a must-see spectacle of urban energy and culture!"
+            },
+            "content": {
+                "verified_photos": [
+                    {
+                        "id": "6f75e14c-72df-49bc-9209-cedf1ad44a92",
+                        "url": "https://media.rimigo.com/images/1761587565_31e8eeac-4a61-4bba-bddd-48eb842d19eb.jpg",
+                        "description": "Bustling Shibuya Crossing at night, filled with crowds, colorful advertisements, and vibrant city lights. An iconic urban scene.",
+                        "created_at": "2025-06-18T13:12:37.580000",
+                        "updated_at": "2025-10-27T17:52:52.266000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "2aa8252e-daf0-4a19-8009-abe408f28b34",
+                        "url": "https://media.rimigo.com/images/1761587565_815c1a87-4120-4106-8ebd-74186566012d.jpg",
+                        "description": "Crowded Shibuya Crossing at night, vibrant advertisements, neon lights, bustling pedestrians, and lively urban atmosphere characterize this iconic location.",
+                        "created_at": "2025-06-18T13:12:37.580000",
+                        "updated_at": "2025-10-27T17:52:52.266000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "28ca445b-6473-40ae-92a0-ed2d4266ee10",
+                        "url": "https://media.rimigo.com/images/1761587565_ac9044d2-5be0-4fcd-8afc-0a130916c77b.jpg",
+                        "description": "Busy Shibuya Crossing bustling with pedestrians, surrounded by vibrant advertisements and tall buildings under a clear sky.",
+                        "created_at": "2025-06-18T13:12:37.581000",
+                        "updated_at": "2025-10-27T17:52:52.266000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "fb6b87b6-3dcc-48c2-9082-abaadbaab150",
+                        "url": "https://media.rimigo.com/images/1761587572_07a3902b-825a-4492-ad1c-33bfbdd8db98.jpg",
+                        "description": "Shibuya Crossing lit by neon signs, bustling with pedestrians holding umbrellas under rainy, vibrant Tokyo night.",
+                        "created_at": "2025-06-18T13:12:37.581000",
+                        "updated_at": "2025-10-27T17:52:52.266000",
+                        "_cls": "MediaContent"
+                    }
+                ],
+                "instagram_reels": [
+                    {
+                        "id": "472a7a31-3113-4c0e-a8b0-5a66fa52ac0d",
+                        "url": "https://www.instagram.com/reel/DBjNkHpuuM8/?igsh=MXJ3OWJvOTBpMXhjZA==",
+                        "description": "Experience the breathtaking aerial panorama of Shibuya crossing in this captivating video.",
+                        "created_at": "2025-06-18T13:12:37.583000",
+                        "updated_at": "2025-06-18T13:12:38.239000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "d21609f2-4a7f-4c28-96b1-76f72048533e",
+                        "url": "https://www.instagram.com/reel/DFf1nkhCLM9/?igsh=czRnaTVhamxwem55",
+                        "description": "Discover the perfect vantage for a breathtaking aerial view of Shibuya crossing in this video showcase.",
+                        "created_at": "2025-06-18T13:12:37.583000",
+                        "updated_at": "2025-06-18T13:12:38.239000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "7182c7fe-adca-4e7b-9a71-92d93b3972d7",
+                        "url": "https://www.instagram.com/reel/C7Ic3pCSnQl/?igsh=MWxkN2dzZjVheTlybw==",
+                        "description": "Experience the electrifying energy in this video of the bustling crowd at Shibuya crossing.",
+                        "created_at": "2025-06-18T13:12:37.584000",
+                        "updated_at": "2025-06-18T13:12:38.239000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "e2f34410-69ac-44b7-ac87-4319cc7d5f66",
+                        "url": "https://www.instagram.com/reel/Cnxx4w7gYKG/?igsh=c2pucm56MzR3d3A1",
+                        "description": "Explore breathtaking aerial perspectives of Shibuya crossing in this captivating video showcase.",
+                        "created_at": "2025-06-18T13:12:37.584000",
+                        "updated_at": "2025-06-18T13:12:38.239000",
+                        "_cls": "MediaContent"
+                    }
+                ],
+                "youtube_videos": [
+                    {
+                        "id": "0a568c5c-8e79-4a2a-8e21-91cae3968c16",
+                        "url": "https://www.youtube.com/watch?v=2_Ghl3I9PpM&t=13s",
+                        "description": "Uncover Shibuya with comprehensive guide, featuring the iconic Shibuya crossing!",
+                        "created_at": "2025-06-18T13:12:37.589000",
+                        "updated_at": "2025-06-18T13:12:38.239000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "6817d4af-4b39-4e0a-ad84-1c2a8e022e84",
+                        "url": "https://www.youtube.com/watch?v=dWq2xGwQSrY",
+                        "description": "Join an adventurer as they delve into the vibrant heart of Shibuya and its iconic crossing.",
+                        "created_at": "2025-06-18T13:12:37.590000",
+                        "updated_at": "2025-06-18T13:12:38.239000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "c35f2483-5621-4e4e-8972-60ee2042a620",
+                        "url": "https://www.youtube.com/watch?v=VrQ1Y9WpqnM",
+                        "description": "A traveler delves into the bustle of Shibuya Crossing, narrating his thrilling experience in this video.",
+                        "created_at": "2025-06-18T13:12:37.590000",
+                        "updated_at": "2025-06-18T13:12:38.239000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "482f0520-3ed4-422c-a9bb-c2fc58d6d7da",
+                        "url": "https://www.youtube.com/watch?v=A9qiVy-Z8XU",
+                        "description": "Discover the thrill of Shibuya's electrifying Scramble Crossing and taste famous food as an explorer!",
+                        "created_at": "2025-06-18T13:12:37.591000",
+                        "updated_at": "2025-06-18T13:12:38.239000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "d7ba5795-1dfa-4e47-acb9-a32700c3126e",
+                        "url": "https://youtu.be/vQ4Wb0CVYBQ?si=7qx2fR4VPhXUPwf6",
+                        "description": "Experience the captivating cinematic journey through Shibuya Crossing!",
+                        "created_at": "2025-06-18T13:12:37.591000",
+                        "updated_at": "2025-06-18T13:12:38.239000",
+                        "_cls": "MediaContent"
+                    }
+                ],
+                "youtube_shorts": [
+                    {
+                        "id": "5e477a1c-dd4e-46e3-8fee-10a230ef3051",
+                        "url": "https://www.youtube.com/shorts/QYy3a9iBDLo",
+                        "description": "Discover the best vantage points for a breathtaking aerial view of Shibuya crossing.",
+                        "created_at": "2025-06-18T13:12:37.593000",
+                        "updated_at": "2025-06-18T13:12:38.240000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "3c7e6684-f912-45e0-a4af-20b456a50ea1",
+                        "url": "https://www.youtube.com/shorts/RJ398TwRUvA",
+                        "description": "Experience the captivating cinematic journey through Shibuya Crossing.",
+                        "created_at": "2025-06-18T13:12:37.593000",
+                        "updated_at": "2025-06-18T13:12:38.240000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "9d307033-1762-4ca4-9cf2-7c03eab4bf5e",
+                        "url": "https://www.youtube.com/shorts/hdtAqmrs2tQ",
+                        "description": "Experience the captivating ambiance of Shibuya Crossing, bathed in the mystique of a drizzling day.",
+                        "created_at": "2025-06-18T13:12:37.594000",
+                        "updated_at": "2025-06-18T13:12:38.240000",
+                        "_cls": "MediaContent"
+                    }
+                ],
+                "verified_videos": [
+                    {
+                        "id": "c3bc1abb-9a7b-42f3-b0b4-a506484865ff",
+                        "url": "https://youtu.be/2_Ghl3I9PpM?t=118",
+                        "description": "Shibuya - Scramble Crossing, Shopping & Great Views",
+                        "created_at": "2025-06-18T13:12:37.604000",
+                        "updated_at": "2025-06-18T13:12:38.240000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "1fd146fb-390a-4d40-920d-f7cb4f8a6047",
+                        "url": "https://youtu.be/VrQ1Y9WpqnM?t=1215",
+                        "description": "Tourist Experience of Shibuya Crossing",
+                        "created_at": "2025-06-18T13:12:37.604000",
+                        "updated_at": "2025-06-18T13:12:38.240000",
+                        "_cls": "MediaContent"
+                    },
+                    {
+                        "id": "8fea7c2c-b3bd-4d43-b0e2-96e12adc1755",
+                        "url": "https://youtu.be/ukFNwzMgThM?t=1",
+                        "description": "Top 5 Photo Spots Of Shibuya Scramble Crossing",
+                        "created_at": "2025-06-18T13:12:37.605000",
+                        "updated_at": "2025-06-18T13:12:38.240000",
+                        "_cls": "MediaContent"
+                    }
+                ],
+                "highlights": [
+                    {
+                        "order": 1,
+                        "text": "Witness the world's busiest pedestrian crossing, a mesmerizing symphony of thousands of people moving simultaneously.",
+                        "_cls": "Highlight"
+                    },
+                    {
+                        "order": 2,
+                        "text": "Immerse yourself in the heart of Tokyo's vibrant youth culture, surrounded by towering neon signs and vibrant billboards.",
+                        "_cls": "Highlight"
+                    },
+                    {
+                        "order": 3,
+                        "text": "Capture panoramic photos and videos from elevated viewpoints, showcasing the incredible scale and energy of the intersection.",
+                        "_cls": "Highlight"
+                    }
+                ],
+                "long_description": "Step into the heart of Tokyo at Shibuya Crossing, one of the busiest and most famous pedestrian intersections in the world. Surrounded by towering neon billboards and giant screens, this legendary spot offers a mesmerizing view of Tokyo\u2019s fast-paced urban culture.\n\nHighlights of experience at Shibuya Crossing:\n\u2022 Iconic Scramble Crossing \u2013 Watch or join the synchronized chaos as hundreds of people cross at once.\n\u2022 Best Viewing Spots \u2013 Capture the action from the Starbucks Tsutaya window or Shibuya Sky observatory.\n\u2022 Vibrant City Atmosphere \u2013 Immerse yourself in the dazzling lights, lively streets, and pulsating energy of Shibuya.\n\u2022 Nearby Attractions \u2013 Visit the famous Hachiko Statue, explore Shibuya 109, or enjoy local restaurants and nightlife.\nWhether you\u2019re a first-time visitor or a seasoned traveler, the Shibuya Crossing experience is a must-see slice of Tokyo\u2019s urban magic!",
+                "short_description": "Feel the pulse of Tokyo at Shibuya Crossing, where thousands move in perfect sync\u2014an electrifying urban spectacle!"
+            },
+            "constraints": {
+                "age": {
+                    "minimum": 0,
+                    "maximum": 120,
+                    "description": "Open to all ages; no age restrictions apply."
+                },
+                "mobility": {
+                    "wheelchair_accessible": true,
+                    "walking_required": true,
+                    "stairs_present": false,
+                    "seating_available": false,
+                    "flat_terrain": true,
+                    "hiking_required": false,
+                    "elevator_available": false,
+                    "mobility_scooter_friendly": true,
+                    "ramps_available": true,
+                    "description": "Flat, wheelchair-accessible intersection with ramps; walking needed."
+                },
+                "pregnancy": {
+                    "is_suitable": true,
+                    "description": "Safe for pregnant visitors; no restrictions on access.",
+                    "is_allowed": true
+                },
+                "pets": {
+                    "are_suitable": false,
+                    "are_allowed": false,
+                    "description": "Not suitable for pets; pets not allowed in the crowded crossing."
+                },
+                "driving_constraints": {
+                    "driving_license_required": true,
+                    "idp_required": false,
+                    "description": "Driving license needed to drive in Tokyo; no IDP needed specifically here."
+                }
+            },
+            "group_type_suitability": {
+                "families": {
+                    "is_suitable": true,
+                    "description": ""
+                },
+                "couples": {
+                    "is_suitable": true,
+                    "description": ""
+                },
+                "solo_travelers": {
+                    "is_suitable": true,
+                    "description": ""
+                },
+                "groups": {
+                    "is_suitable": false,
+                    "description": "",
+                    "minimum_size": 2,
+                    "maximum_size": 10
+                }
+            },
+            "price": {
+                "currency": "INR",
+                "upper_bound": 0.0,
+                "lower_bound": 0.0,
+                "description": ""
+            },
+            "tags": {
+                "must_do": true,
+                "hidden_gem": false,
+                "luxury": false,
+                "budget": true,
+                "touristy": true,
+                "off_beat": false
+            },
+            "sentiments": {
+                "positive": [
+                    {
+                        "id": "cd97b475-6b7e-4d0c-acb4-9ecbf66aa439",
+                        "text": "When you step into Shibuya you know you are at the heart and soul of Tokyo. It is the go-to spot for 24/7 entertainment.",
+                        "source_type": null,
+                        "source_link": null,
+                        "timestamp": null,
+                        "created_at": "2025-06-18T13:12:37.618000",
+                        "updated_at": "2025-06-18T13:12:37.618000"
+                    },
+                    {
+                        "id": "159bb4f0-2adf-427a-a1ae-5271f93b4f75",
+                        "text": "If you want to feel the heartbeat of Tokyo, Shibuya is the place to be. This neighborhood offers a dynamic mix of shopping, dining, and nightlife.",
+                        "source_type": null,
+                        "source_link": null,
+                        "timestamp": null,
+                        "created_at": "2025-06-18T13:12:37.618000",
+                        "updated_at": "2025-06-18T13:12:37.618000"
+                    },
+                    {
+                        "id": "94ec6caf-ffa2-4048-a6ab-735cdfe170de",
+                        "text": "Shibuya Crossing is arguably the busiest crosswalk in the world, with thousands of people moving in all directions in a mesmerizing display of city energy.",
+                        "source_type": "youtube_video",
+                        "source_link": "https://www.youtube.com/watch?v=epqX_EmrQbQ",
+                        "timestamp": "02:25",
+                        "created_at": "2025-06-18T13:12:37.618000",
+                        "updated_at": "2025-06-18T13:12:37.618000"
+                    },
+                    {
+                        "id": "1e57937d-9f0d-4c3d-ac82-d47249deb89f",
+                        "text": "Of course, no visit to Shibuya is complete without experiencing the iconic Shibuya Crossing. Walk across, snap some selfies, and don\u2019t forget to take a photo with the famous Hachiko statue.",
+                        "source_type": "youtube_video",
+                        "source_link": "https://www.youtube.com/watch?v=pRZmvBsSius",
+                        "timestamp": "05:20",
+                        "created_at": "2025-06-18T13:12:37.618000",
+                        "updated_at": "2025-06-18T13:12:37.618000"
+                    },
+                    {
+                        "id": "cf77f581-db56-4f61-8112-c1845222d319",
+                        "text": "Shibuya needs no introduction, renowned worldwide as one of Tokyo\u2019s top nightlife hubs. It\u2019s also a great area to stay, with thousands of restaurants offering endless dining options.",
+                        "source_type": "youtube_video",
+                        "source_link": "https://www.youtube.com/watch?v=oO86YHF9wzc",
+                        "timestamp": "05:00",
+                        "created_at": "2025-06-18T13:12:37.618000",
+                        "updated_at": "2025-06-18T13:12:37.618000"
+                    },
+                    {
+                        "id": "08c64a24-6524-42de-b6ad-93d6c6c32f51",
+                        "text": "To experience the true heartbeat of Tokyo, Shibuya is the place to be, offering an exciting blend of shopping, dining, and vibrant nightlife.",
+                        "source_type": "youtube_video",
+                        "source_link": "https://www.youtube.com/watch?v=E0lKcUoLCCo",
+                        "timestamp": "03:30",
+                        "created_at": "2025-06-18T13:12:37.618000",
+                        "updated_at": "2025-06-18T13:12:37.618000"
+                    },
+                    {
+                        "id": "4739071d-8a92-467a-bdb6-1e8ef58f2e7c",
+                        "text": "Shibuya needs no introduction, renowned worldwide as one of Tokyo\u2019s top nightlife hubs. It\u2019s also a great area to stay, with thousands of restaurants offering endless dining options.",
+                        "source_type": "youtube_video",
+                        "source_link": "https://www.youtube.com/watch?v=oO86YHF9wzc",
+                        "timestamp": "05:00",
+                        "created_at": "2025-06-18T13:12:37.618000",
+                        "updated_at": "2025-06-18T13:12:37.618000"
+                    },
+                    {
+                        "id": "d6f81834-6ece-41b9-ad3f-803d75591cf2",
+                        "text": "To experience the true heartbeat of Tokyo, Shibuya is the place to be, offering an exciting blend of shopping, dining, and vibrant nightlife.",
+                        "source_type": "youtube_video",
+                        "source_link": "https://www.youtube.com/watch?v=E0lKcUoLCCo",
+                        "timestamp": "03:30",
+                        "created_at": "2025-06-18T13:12:37.618000",
+                        "updated_at": "2025-06-18T13:12:37.618000"
+                    }
+                ],
+                "negative": [],
+                "viareel_sentiments": []
+            },
+            "seasonal_information": {
+                "january": {
+                    "is_recommended": true,
+                    "weather": {
+                        "minimum_temperature": 1.8,
+                        "maximum_temperature": 9.6,
+                        "average_temperature": 5.7,
+                        "temperature_unit": "celsius",
+                        "precipitation_chance": 14.0,
+                        "description": "Cold and mostly dry. Daytime temperatures are chilly, with occasional dips below freezing. Warm clothing is necessary."
+                    },
+                    "crowd_levels": {
+                        "level": "medium",
+                        "description": "Crowds are moderate. Post-New Year\u2019s sales and local commuters keep the crossing active, but it\u2019s less busy than peak tourist months."
+                    },
+                    "is_peak_season": false,
+                    "is_price_higher_than_usual": false,
+                    "availability": {
+                        "is_available": true,
+                        "restrictions": "No restrictions. Shibuya Crossing is a public thoroughfare, accessible 24/7 except during rare major events or safety closures."
+                    },
+                    "description": "A brisk time to experience Shibuya Crossing\u2019s iconic energy, with fewer tourists and crisp winter conditions. Dress warmly and expect the crossing to be fully operational.",
+                    "created_at": "2025-06-18T13:12:37.620000",
+                    "updated_at": "2025-06-18T13:12:37.620000"
+                },
+                "february": {
+                    "is_recommended": true,
+                    "weather": {
+                        "minimum_temperature": 2.7,
+                        "maximum_temperature": 10.3,
+                        "average_temperature": 6.5,
+                        "temperature_unit": "celsius",
+                        "precipitation_chance": 16.0,
+                        "description": "Cold, slightly warmer than January, with low precipitation. Occasional windy days; winter attire is advised."
+                    },
+                    "crowd_levels": {
+                        "level": "medium",
+                        "description": "Traffic is steady but not overwhelming. The crossing sees regular local activity with some visitors."
+                    },
+                    "is_peak_season": false,
+                    "is_price_higher_than_usual": false,
+                    "availability": {
+                        "is_available": true,
+                        "restrictions": "No restrictions. The area remains open to the public at all times."
+                    },
+                    "description": "Enjoy vibrant city scenes in cool, clear air. It\u2019s a comfortable month for urban exploration with manageable crowds.",
+                    "created_at": "2025-06-18T13:12:37.621000",
+                    "updated_at": "2025-06-18T13:12:37.621000"
+                },
+                "march": {
+                    "is_recommended": true,
+                    "weather": {
+                        "minimum_temperature": 7.9,
+                        "maximum_temperature": 16.4,
+                        "average_temperature": 12.2,
+                        "temperature_unit": "celsius",
+                        "precipitation_chance": 21.0,
+                        "description": "Mild and gradually warming. Occasional rain, but generally pleasant for walking. Cherry blossoms may begin late in the month."
+                    },
+                    "crowd_levels": {
+                        "level": "high",
+                        "description": "Increased tourist activity as cherry blossom season approaches. The crossing becomes one of Tokyo\u2019s busiest spots."
+                    },
+                    "is_peak_season": false,
+                    "is_price_higher_than_usual": false,
+                    "availability": {
+                        "is_available": true,
+                        "restrictions": "No restrictions. The crossing is open, though nearby events may draw larger crowds."
+                    },
+                    "description": "A lively month with warming weather and early cherry blossoms drawing more visitors. Expect a bustling, energetic atmosphere.",
+                    "created_at": "2025-06-18T13:12:37.623000",
+                    "updated_at": "2025-06-18T13:12:37.623000"
+                },
+                "april": {
+                    "is_recommended": true,
+                    "weather": {
+                        "minimum_temperature": 8.0,
+                        "maximum_temperature": 18.0,
+                        "average_temperature": 13.0,
+                        "temperature_unit": "celsius",
+                        "precipitation_chance": 35.0,
+                        "description": "Mild, pleasant temperatures with a moderate chance of rain. Breezy days are common. Ideal for walking and sightseeing."
+                    },
+                    "crowd_levels": {
+                        "level": "high",
+                        "description": "Peak tourist season due to cherry blossoms. The crossing is crowded, especially on weekends and during festivals."
+                    },
+                    "is_peak_season": true,
+                    "is_price_higher_than_usual": true,
+                    "availability": {
+                        "is_available": true,
+                        "restrictions": "No restrictions. The crossing is always accessible, but crowds may slow crossing times."
+                    },
+                    "description": "A vibrant, photogenic time at Shibuya Crossing. Cherry blossoms and spring events bring large crowds and higher accommodation prices.",
+                    "created_at": "2025-06-18T13:12:37.624000",
+                    "updated_at": "2025-06-18T13:12:37.624000"
+                },
+                "may": {
+                    "is_recommended": true,
+                    "weather": {
+                        "minimum_temperature": 17.0,
+                        "maximum_temperature": 23.0,
+                        "average_temperature": 20.0,
+                        "temperature_unit": "celsius",
+                        "precipitation_chance": 20.0,
+                        "description": "May in Shibuya is comfortably warm with daytime highs around 23\u00b0C and lows near 17\u00b0C. Expect a moderate chance of rain, with around 6 rainy days in the month and a high UV index."
+                    },
+                    "crowd_levels": {
+                        "level": "medium",
+                        "description": "Shibuya Crossing sees steady visitor numbers in May, with moderate crowds as it is outside the main holiday peaks but still popular with both locals and tourists."
+                    },
+                    "is_peak_season": false,
+                    "is_price_higher_than_usual": false,
+                    "availability": {
+                        "is_available": true,
+                        "restrictions": "No restrictions; the crossing and surrounding area are open to the public at all hours."
+                    },
+                    "description": "Walking through the iconic Shibuya Crossing in May offers pleasant weather and manageable crowds. The area remains lively and fully accessible, making it a recommended time for a visit.",
+                    "created_at": "2025-06-18T13:12:37.630000",
+                    "updated_at": "2025-06-18T13:12:37.630000"
+                },
+                "june": {
+                    "is_recommended": true,
+                    "weather": {
+                        "minimum_temperature": 20.0,
+                        "maximum_temperature": 26.0,
+                        "average_temperature": 23.0,
+                        "temperature_unit": "celsius",
+                        "precipitation_chance": 40.0,
+                        "description": "June is warm and marks the start of the rainy season, with frequent showers and higher humidity. Temperatures average around 23\u00b0C."
+                    },
+                    "crowd_levels": {
+                        "level": "medium",
+                        "description": "Despite the rain, Shibuya Crossing still attracts many visitors, but crowds may thin somewhat during wet days."
+                    },
+                    "is_peak_season": false,
+                    "is_price_higher_than_usual": false,
+                    "availability": {
+                        "is_available": true,
+                        "restrictions": "No restrictions; the crossing is open, though visitors should be prepared for rain."
+                    },
+                    "description": "June brings more rainfall and humidity, but Shibuya Crossing remains accessible and popular. Bring an umbrella and expect occasional wet conditions.",
+                    "created_at": "2025-06-18T13:12:37.631000",
+                    "updated_at": "2025-06-18T13:12:37.631000"
+                },
+                "july": {
+                    "is_recommended": true,
+                    "weather": {
+                        "minimum_temperature": 24.0,
+                        "maximum_temperature": 30.0,
+                        "average_temperature": 27.0,
+                        "temperature_unit": "celsius",
+                        "precipitation_chance": 35.0,
+                        "description": "July is hot and humid, with temperatures often reaching 30\u00b0C. Rain is still common, especially early in the month."
+                    },
+                    "crowd_levels": {
+                        "level": "high",
+                        "description": "Tourist activity increases as summer begins, with higher crowds, especially during weekends and holidays."
+                    },
+                    "is_peak_season": true,
+                    "is_price_higher_than_usual": true,
+                    "availability": {
+                        "is_available": true,
+                        "restrictions": "No restrictions; the area is open, but heat and humidity may affect comfort."
+                    },
+                    "description": "July is busy and hot at Shibuya Crossing, with high humidity and frequent rain showers. It's a lively time, but visitors should be prepared for summer heat.",
+                    "created_at": "2025-06-18T13:12:37.632000",
+                    "updated_at": "2025-06-18T13:12:37.632000"
+                },
+                "august": {
+                    "is_recommended": false,
+                    "weather": {
+                        "minimum_temperature": 26.0,
+                        "maximum_temperature": 32.0,
+                        "average_temperature": 29.0,
+                        "temperature_unit": "celsius",
+                        "precipitation_chance": 30.0,
+                        "description": "August is the hottest month, with temperatures often exceeding 30\u00b0C, high humidity, and occasional heavy rainfall."
+                    },
+                    "crowd_levels": {
+                        "level": "high",
+                        "description": "This is a peak travel season in Japan, with many domestic and international tourists, especially during the Obon holidays."
+                    },
+                    "is_peak_season": true,
+                    "is_price_higher_than_usual": true,
+                    "availability": {
+                        "is_available": true,
+                        "restrictions": "No restrictions; the crossing is open, though extreme heat may affect outdoor activity comfort."
+                    },
+                    "description": "August at Shibuya Crossing is very hot, humid, and crowded. While accessible, the intense heat and large crowds may detract from the experience.",
+                    "created_at": "2025-06-18T13:12:38.221000",
+                    "updated_at": "2025-06-18T13:12:38.221000"
+                },
+                "september": {
+                    "is_recommended": true,
+                    "weather": {
+                        "minimum_temperature": 20.0,
+                        "maximum_temperature": 28.0,
+                        "average_temperature": 24.0,
+                        "temperature_unit": "celsius",
+                        "precipitation_chance": 46.0,
+                        "description": "Pleasantly warm and breezy, with a moderate chance of rain. Average highs reach 28\u00b0C and lows 20\u00b0C. Some days may experience moderate rainfall."
+                    },
+                    "crowd_levels": {
+                        "level": "high",
+                        "description": "Shibuya Crossing is always busy, but September sees high foot traffic as locals return from summer holidays and tourists visit during late summer."
+                    },
+                    "is_peak_season": true,
+                    "is_price_higher_than_usual": false,
+                    "availability": {
+                        "is_available": true,
+                        "restrictions": "No specific restrictions. The area is fully accessible 24/7 as a public crossing; normal local traffic and pedestrian regulations apply."
+                    },
+                    "description": "Walking through Shibuya Crossing in September offers a lively urban experience. The weather is warm but not as hot as summer peaks, and the iconic scramble is accessible at all times. Expect crowds and occasional moderate rainfall.",
+                    "created_at": "2025-06-18T13:12:38.222000",
+                    "updated_at": "2025-06-18T13:12:38.222000"
+                },
+                "october": {
+                    "is_recommended": true,
+                    "weather": {
+                        "minimum_temperature": 15.0,
+                        "maximum_temperature": 23.0,
+                        "average_temperature": 19.0,
+                        "temperature_unit": "celsius",
+                        "precipitation_chance": 30.0,
+                        "description": "October brings mild and comfortable temperatures with lower humidity. Rain is less frequent, making it ideal for outdoor activities."
+                    },
+                    "crowd_levels": {
+                        "level": "high",
+                        "description": "Crowds remain high as Shibuya Crossing is always busy, but the pleasant weather attracts even more visitors, especially during autumn events."
+                    },
+                    "is_peak_season": false,
+                    "is_price_higher_than_usual": false,
+                    "availability": {
+                        "is_available": true,
+                        "restrictions": ""
+                    },
+                    "description": "October is one of the best months to visit Shibuya Crossing due to comfortable weather. All services and transport are operating as usual.",
+                    "created_at": "2025-06-18T13:12:38.223000",
+                    "updated_at": "2025-06-18T13:12:38.223000"
+                },
+                "november": {
+                    "is_recommended": true,
+                    "weather": {
+                        "minimum_temperature": 10.0,
+                        "maximum_temperature": 18.0,
+                        "average_temperature": 14.0,
+                        "temperature_unit": "celsius",
+                        "precipitation_chance": 20.0,
+                        "description": "November is cool and crisp, with low rainfall. The weather is generally clear and ideal for sightseeing."
+                    },
+                    "crowd_levels": {
+                        "level": "high",
+                        "description": "The crossing continues to attract large crowds. Autumn foliage season brings more tourists to Tokyo, particularly on weekends."
+                    },
+                    "is_peak_season": false,
+                    "is_price_higher_than_usual": false,
+                    "availability": {
+                        "is_available": true,
+                        "restrictions": ""
+                    },
+                    "description": "November offers excellent conditions for visiting Shibuya Crossing, with cool temperatures and minimal rain. Access and amenities are fully available.",
+                    "created_at": "2025-06-18T13:12:38.223000",
+                    "updated_at": "2025-06-18T13:12:38.223000"
+                },
+                "december": {
+                    "is_recommended": true,
+                    "weather": {
+                        "minimum_temperature": 5.0,
+                        "maximum_temperature": 13.0,
+                        "average_temperature": 9.0,
+                        "temperature_unit": "celsius",
+                        "precipitation_chance": 15.0,
+                        "description": "December is chilly and mostly dry, with clear skies. Occasional cold snaps, but snow is rare."
+                    },
+                    "crowd_levels": {
+                        "level": "high",
+                        "description": "Crowds remain consistently high, and the holiday season sees a further increase in visitors, especially in the evenings with seasonal illuminations."
+                    },
+                    "is_peak_season": true,
+                    "is_price_higher_than_usual": true,
+                    "availability": {
+                        "is_available": true,
+                        "restrictions": ""
+                    },
+                    "description": "December is a popular month to visit for festive displays and winter events. All services and transport connections are fully operational, but prices may rise around Christmas and New Year's.",
+                    "created_at": "2025-06-18T13:12:38.224000",
+                    "updated_at": "2025-06-18T13:12:38.224000"
+                }
+            },
+            "timing_guide": {
+                "recommended_time_slots": ["late_evening", "early_morning", "afternoon", "morning", "evening"],
+                "monday": {
+                    "start_time": "12:00 AM",
+                    "end_time": "11:59 PM",
+                    "description": "Shibuya Crossing operates 24 hours a day. Peak pedestrian traffic occurs during the evening rush hours, especially between 5:00 PM and 7:00 PM.",
+                    "is_closed": false
+                },
+                "tuesday": {
+                    "start_time": "12:00 AM",
+                    "end_time": "11:59 PM",
+                    "description": "Shibuya Crossing operates 24 hours a day. Peak pedestrian traffic occurs during the evening rush hours, especially between 5:00 PM and 7:00 PM.",
+                    "is_closed": false
+                },
+                "wednesday": {
+                    "start_time": "12:00 AM",
+                    "end_time": "11:59 PM",
+                    "description": "Shibuya Crossing operates 24 hours a day. Peak pedestrian traffic occurs during the evening rush hours, especially between 5:00 PM and 7:00 PM.",
+                    "is_closed": false
+                },
+                "thursday": {
+                    "start_time": "12:00 AM",
+                    "end_time": "11:59 PM",
+                    "description": "Shibuya Crossing operates 24 hours a day. Peak pedestrian traffic occurs during the evening rush hours, especially between 5:00 PM and 7:00 PM.",
+                    "is_closed": false
+                },
+                "friday": {
+                    "start_time": "12:00 AM",
+                    "end_time": "11:59 PM",
+                    "description": "Shibuya Crossing operates 24 hours a day. Peak pedestrian traffic occurs during the evening rush hours, especially between 5:00 PM and 7:00 PM.",
+                    "is_closed": false
+                },
+                "saturday": {
+                    "start_time": "12:00 AM",
+                    "end_time": "11:59 PM",
+                    "description": "Shibuya Crossing operates 24 hours a day. Weekends, especially late afternoons and evenings, see increased pedestrian activity.",
+                    "is_closed": false
+                },
+                "sunday": {
+                    "start_time": "12:00 AM",
+                    "end_time": "11:59 PM",
+                    "description": "Shibuya Crossing operates 24 hours a day. Weekends, especially late afternoons and evenings, see increased pedestrian activity.",
+                    "is_closed": false
+                }
+            },
+            "transport_options": {
+                "bus": true,
+                "metro": true,
+                "train": true,
+                "taxi": true,
+                "car": true,
+                "bike": false,
+                "cable_car": false,
+                "walking": true,
+                "shuttle_service": false,
+                "boat_service": false,
+                "ferry_service": false,
+                "description": "Shibuya Crossing is best accessed via public transportation. The JR Yamanote Line and various Tokyo Metro lines service Shibuya Station, which is adjacent to the crossing. Utilizing public transit is recommended due to traffic congestion and limited parking in the area. For a panoramic view, consider visiting nearby establishments like Shibuya Sky.",
+                "recommended_option": ["walking", "metro", "train"]
+            },
+            "tips": [],
+            "suggestion_priority": 0,
+            "is_ticket_required": "not_required",
+            "recommended_mode": "self_explore",
+            "booking_window": "on_the_spot",
+            "created_at": "2025-02-10T15:50:58.215000Z",
+            "updated_at": "2025-10-13T05:51:22.971000Z"
+        },
+        "cache_key": "experience_curation:d45054b34ae0d01b4ad8da9fbff92591"
+    }
+}

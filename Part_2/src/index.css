@@ -1,0 +1,1452 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Caveat:wght@700&display=swap');
+
+@import './styles/wp-content.css';
+@import './styles/navigation-highlights.css';
+@import 'tailwindcss';
+@import 'tailwindcss/preflight.css' layer(base);
+
+@custom-variant dark (&:is(.dark *));
+
+/* Sonner close button — right-aligned inside the toast, vertically centered. */
+[data-sonner-toaster] [data-sonner-toast] [data-close-button] {
+    left: auto !important;
+    right: 12px !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    width: 28px !important;
+    height: 28px !important;
+    background: transparent !important;
+    border-color: transparent !important;
+    color: rgb(255 255 255 / 0.6) !important;
+    box-shadow: none !important;
+}
+[data-sonner-toaster] [data-sonner-toast] [data-close-button]:hover {
+    background: rgb(255 255 255 / 0.1) !important;
+    color: rgb(255 255 255) !important;
+    border-color: transparent !important;
+}
+[data-sonner-toaster] [data-sonner-toast] [data-close-button] svg {
+    width: 18px !important;
+    height: 18px !important;
+}
+
+/* Hide scrollbars */
+.scrollbar-hide {
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+    scrollbar-width: none; /* Firefox */
+}
+.scrollbar-hide::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+}
+
+/* Fades an element (including its backdrop-filter) out toward the bottom.
+   Emits the -webkit- prefix explicitly so iOS Safari masks the blur too —
+   Tailwind can't generate a `-webkit-mask-image` arbitrary class (the leading
+   hyphen is read as a negative-utility prefix). */
+.scrim-fade-mask {
+    -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 55%, transparent 100%);
+    mask-image: linear-gradient(to bottom, #000 0%, #000 55%, transparent 100%);
+}
+
+/* Compass rotation animation */
+@keyframes compass-rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Slot-photo focus animation: one-shot zoom-in then continuous Ken-Burns
+   breathe. Used on desktop hover and mobile when a card is in the viewport-
+   centre band. Exit unwinds via `transition-transform` on the image. */
+@keyframes kanban-photo-zoom-in {
+    from { transform: scale(1); }
+    to   { transform: scale(1.06); }
+}
+@keyframes kanban-photo-breathe {
+    0%, 100% { transform: scale(1.06); }
+    50%      { transform: scale(1.10); }
+}
+.kanban-photo-active {
+    animation:
+        kanban-photo-zoom-in 600ms ease-out forwards,
+        kanban-photo-breathe 6s ease-in-out 600ms infinite;
+}
+.group:hover .kanban-photo-active-on-hover {
+    animation:
+        kanban-photo-zoom-in 600ms ease-out forwards,
+        kanban-photo-breathe 6s ease-in-out 600ms infinite;
+}
+
+@keyframes gradient-slide-text {
+    0% {
+        background-position: 200% center;
+    }
+    100% {
+        background-position: -200% center;
+    }
+}
+
+.animate-gradient-slide-text {
+    background: linear-gradient(
+        90deg,
+        #9ca3af 0%,
+        #9ca3af 35%,
+        #7011f6 50%,
+        #9ca3af 65%,
+        #9ca3af 100%
+    );
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient-slide-text 2.5s ease-in-out infinite;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.animate-compass {
+    animation: compass-rotate 2s linear infinite;
+}
+
+/* Glow-highlight a menu row (e.g. Invite / Share) when the concierge
+   points the traveler at it via an open_invite / open_share custom action.
+   A steady pale-purple base keeps the row distinct, while an inset ring +
+   soft outer glow pulse slowly so it's easy to spot. */
+@keyframes menu-row-glow {
+    0%,
+    100% {
+        box-shadow:
+            inset 0 0 0 1.5px color-mix(in srgb, var(--color-primary-default) 25%, transparent),
+            0 0 0 0 color-mix(in srgb, var(--color-primary-default) 0%, transparent);
+    }
+    50% {
+        box-shadow:
+            inset 0 0 0 2px var(--color-primary-default),
+            0 0 14px 3px color-mix(in srgb, var(--color-primary-default) 45%, transparent);
+    }
+}
+
+.animate-menu-highlight {
+    background-color: var(--color-primary-pale-purple);
+    border-radius: 8px;
+    animation: menu-row-glow 1.3s ease-in-out infinite;
+}
+
+/* Staggered entrance for the promoted suggestion chips above the input bar —
+   replays whenever the chip set changes so the traveler notices it refreshed
+   (instead of going blind to a static-looking row). */
+@keyframes chip-in {
+    from {
+        opacity: 0;
+        transform: translateY(6px) scale(0.96);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.animate-chip-in {
+    animation: chip-in 0.32s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* Chat-loading skeleton shimmer — a soft highlight sweeps left-to-right over a
+   light grey base so a placeholder conversation reads clearly as "loading"
+   without a spinner. Calm cadence (~1.4s) keeps it tasteful. */
+@keyframes skeleton-shimmer {
+    0% {
+        background-position: 200% 0;
+    }
+    100% {
+        background-position: -200% 0;
+    }
+}
+
+.animate-skeleton {
+    background-color: var(--color-grey-5);
+    background-image: linear-gradient(
+        90deg,
+        var(--color-grey-5) 0%,
+        var(--color-grey-4) 50%,
+        var(--color-grey-5) 100%
+    );
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+    animation: skeleton-shimmer 1.4s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .animate-skeleton {
+        background-image: none;
+        background-color: var(--color-grey-5);
+        animation: none;
+    }
+}
+
+
+/* ------------------------------
+   Base setup
+------------------------------ */
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    overflow-x: hidden;
+    --sat: env(safe-area-inset-bottom);
+}
+
+/* Create-flow (tripboard wizard): every enabled button/clickable shows the
+   pointer cursor on desktop, so the whole flow feels interactive. Disabled
+   controls keep the default cursor. */
+.wf-create-flow button:not(:disabled):not([aria-disabled='true']),
+.wf-create-flow [role='button']:not([aria-disabled='true']) {
+    cursor: pointer;
+}
+
+/* ─ createFlow semantic tokens (alias layer for the itinerary wizard) ──
+   Lowercase-kebab to match the rest of this file. --text-* / --fill-* /
+   --border-* / --surface-* / --font-family-* are referenced only by the
+   .wf-* utility classes below and by createFlow components.
+   --grey-0 lives in @theme as --color-grey-0; reuse that instead.        */
+:root {
+    --text-primary: #0d0c0d;
+    --text-tertiary: #4f4f50;
+    --text-placeholder: #acaaae;
+    --text-inverse: #ffffff;
+    --text-brand: #7011f6;
+    --text-brand-strong: #430a94;
+
+    --fill-brand: #7011f6;
+    --fill-neutral: #ffffff;
+
+    /* --border-focus and --border-brand are intentionally the same hex
+       today; keep them split so future focus-ring tweaks don't drag the
+       brand stroke along. */
+    --border-focus: #7011f6;
+    --border-brand: #7011f6;
+    --border-subtle: #dfdde0;
+
+    --surface-raised: #ffffff;
+    --surface-brand-subtle: #e2cffd;
+
+    --font-family-title: 'Red Hat Display', system-ui, sans-serif;
+    --font-family-body: 'Manrope', system-ui, sans-serif;
+}
+
+/* ── createFlow utility classes ────────────────────────────────────────
+   Components first, then typography helpers. Font-weights 550 / 645 are
+   intermediate variable-axis weights served by Red Hat Display (wght
+   300..900) — not typos.                                                  */
+
+/* Components */
+
+.wf-step-dot {
+    /* 16x16 visible circle. Tap target is enlarged via the surrounding
+       button (handled in StepIndicator with extra padding) so the visual
+       size matches Figma exactly without inflating the dot itself. */
+    width: 16px;
+    height: 16px;
+    border-radius: 9999px;
+    border: 1px solid var(--border-subtle);
+    background: var(--fill-neutral);
+}
+.wf-step-dot--active {
+    border-color: var(--border-focus);
+    background: var(--fill-brand);
+}
+
+.wf-tab {
+    display: flex;
+    padding: 12px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    flex: 1 0 0;
+    border-bottom: 1px solid var(--border-subtle);
+    background: var(--surface-raised);
+    cursor: pointer;
+}
+.wf-tab--active {
+    border-bottom: 2px solid var(--border-brand);
+    background: var(--surface-brand-subtle);
+}
+
+/* Mobile: matches --breakpoint-md (768px) in @theme. CSS @media can't
+   read CSS variables, so keep this in sync if @theme changes.            */
+@media (max-width: 767px) {
+    .wf-tab {
+        padding: 10px 24px;
+    }
+}
+
+/* Typography */
+
+.wf-heading-xs {
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-16);
+    font-weight: 550;
+    line-height: 20px;
+    letter-spacing: -0.32px;
+}
+.wf-heading-3xs {
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-12);
+    font-weight: 645;
+    line-height: 16px;
+    letter-spacing: -0.24px;
+}
+.wf-heading-m {
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-20);
+    font-weight: 550;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+}
+.wf-caption-s {
+    font-family: var(--font-family-body);
+    font-size: var(--font-size-11);
+    font-weight: 800;
+    line-height: 16px;
+    letter-spacing: -0.22px;
+}
+.wf-body-s {
+    font-family: var(--font-family-body);
+    font-size: var(--font-size-14);
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.28px;
+}
+.wf-body-s--semibold {
+    font-weight: 600;
+}
+.wf-body-m {
+    font-family: var(--font-family-body);
+    font-size: var(--font-size-16);
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.32px;
+}
+
+/* Apply Red Hat Display to headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+/* ------------------------------
+   CSS Variables
+------------------------------ */
+@theme {
+    /* Fonts */
+    --font-red-hat-display: 'Red Hat Display', sans-serif;
+    --font-manrope: 'Manrope', sans-serif;
+    --font-caveat: 'Caveat', cursive;
+    /* Breakpoints */
+    --breakpoint-xs: 300px;
+    --breakpoint-2xs: 380px;
+    --breakpoint-sm: 480px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1024px;
+    --breakpoint-xl: 1280px;
+    --breakpoint-2xl: 1536px;
+
+    /* Border Radius */
+    --radius-sm: 7px;
+    --radius-md: 13px;
+    --radius-lg: 19px;
+
+    /* Font Sizes */
+    --font-size-xs: 11px;
+    --font-size-sm: 13px;
+    --font-size-12: 12px;
+    --font-size-20: 20px;
+    --font-size-9: 9px;
+    --font-size-17: 17px;
+    --font-size-10: 10px;
+    --font-size-11: 11px;
+    --font-size-18: 18px;
+
+    --font-size-14: 14px;
+    --font-size-28: 28px;
+
+    --font-size-md: 15px;
+    --font-size-16: 16px;
+    --font-size-15: 15px;
+    --font-size-lg: 18px;
+    --font-size-xl: 21px;
+    --font-size-2xl: 23px;
+    --font-size-24: 24px;
+    --font-size-header-description: 18px;
+    --font-size-header-mobile: 28px;
+    --font-size-header-hero-mobile: 40px;
+    --font-size-story-card-header: 20px;
+    --font-size-48: 48px;
+
+    /* Line Heights */
+    --line-height-stats-description: 26px;
+    --line-height-accordion-answer-mobile: 27px;
+    --line-height-feature-card-header-mobile: 29px;
+    --line-height-hero-header-mobile: 56px;
+    --line-height-section-header-mobile: 39.2px;
+
+    /* Letter Spacing */
+    --letter-spacing-header-description-mobile: -0.039px;
+    --letter-spacing-accordion-answer-mobile: -0.045px;
+    --letter-spacing-story-card-header-mobile: 0.054px;
+    --letter-spacing-feature-card-header-mobile: 0.063px;
+    --letter-spacing-section-header-mobile: 0.084px;
+    --letter-spacing-section-description-mobile: -0.054px;
+
+    /* Shadows */
+    --shadow-feature-card: 0px 1px 1px 0px rgba(0, 0, 0, 0.09);
+    --shadow-booking-card: 0px 12px 22px 0px rgba(36, 48, 127, 0.08);
+
+    /* Colors */
+    --color-tertiary: #eef4ff;
+    --color-icon: #6f7788;
+    --color-badge-button: rgba(255, 255, 255, 0.24);
+    --color-navigation-button: #e9eef2;
+    --color-header-black: #090a0c;
+    --color-feature-card-border: #ebecef;
+    --color-transparent: transparent;
+    --color-1: 0 100% 63%;
+    --color-2: 270 100% 63%;
+    --color-3: 210 100% 63%;
+    --color-4: 195 100% 63%;
+    --color-5: 90 100% 63%;
+
+    /* Grey */
+    --color-grey-0: #101010;
+    --color-grey-0-80: #101010cc;
+    --color-grey-1: #363636;
+    --color-grey-2: #747474;
+    --color-grey-3: #aeaeae;
+    --color-grey-4: #e0e0e0;
+    --color-grey-47: #f1f1f1;
+    --color-grey-5: #f8f8f8;
+    --color-grey-6: #343335
+
+    --color-grey_0: #101010;
+    --color-grey_1: #363636;
+    --color-grey_2: #747474;
+    --color-grey_3: #aeaeae;
+    --color-grey_4: #e0e0e0;
+    --color-grey_5: #f8f8f8;
+    --color-cream-1: #f3efff;
+    /* Natural */
+    --color-natural-white: #ffffff;
+    --color-natural-black: #000000;
+    --color-natural-white-16: rgba(255, 255, 255, 0.16);
+    --color-natural-white-80: rgba(255, 255, 255, 0.8);
+    --color-natural-black-80-2: #101010cc;
+
+    /* Primary */
+    --color-primary-default: #7011f6;
+    --color-primary-default-80: #7011f612;
+    --color-primary-default-08: #7011f614;
+    --color-primary-default-12: #7011f61f;
+    --color-primary-default-8: #7011f6cc;
+    --color-primary-pale-purple: #f5edff;
+
+    --color-primary-dark: #4d1d91;
+    --color-primary-dark-80: #4d1d9112;
+    --color-primary-light: #ab72fb;
+    --color-primary-light-80: #ab72fb7a;
+
+    /* Budget category accents */
+    --color-budget-activities: #D85A30;
+    --color-budget-activities-light: #FFF3EC;
+
+    /* Bookings tab semantic tokens (Figma Rimigo Design Master · Bookings Tab) */
+    --color-surface-sunken: #f5f4f7;
+    --color-surface-subtle: #dfdde0;
+    --color-border-subtle: #dfdde0;
+    --color-fill-success: #00a878;
+    --color-fill-warning: #ffa400;
+    --color-banner-lilac: #f2e9fe;
+
+    /* Warning / stale banner */
+    --color-warning-border: #F5DEB3;
+    --color-warning-bg: #FFFBF0;
+    --color-warning-text: #B8860B;
+    --color-warning-hover: #FFF5DB;
+
+    /* Secondary */
+    --color-secondary-green: #26bc6d;
+    --color-secondary-green-80: #26bc6d12;
+    --color-secondary-green-dark: #0e8645;
+    --color-secondary-red: #e73434;
+    --color-secondary-red-80: #e7343412;
+    --color-secondary-orange: #e55a34;
+    --color-secondary-orange-80: #e55a3412;
+    --color-secondary-blue: #1588cf;
+    --color-secondary-yellow: #cdae00;
+    --color-secondary-yellow-80: #cdae0012;
+    --color-secondary-purple: #7011f6;
+    --color-secondary-purple-80: rgba(112, 17, 246, 0.08);
+    --color-secondary-alice-blue: #f8fafc;
+
+    /* Careers */
+    --color-careers-light: #f7f7f7;
+    --color-careers-dark: #1d1d1f;
+    --color-careers-accent: #7011f6;
+    --color-careers-muted: #86868b;
+    --color-careers-card: #ffffff;
+    --color-careers-tag: #f5f5f7;
+    --color-careers-hover: #7011f6;
+    --color--primary: #171717;
+    --color-color-1: 0 100% 63%;
+
+    --animate-shiny-text:
+        shiny-text 8s infinite, @keyframes shiny-text {0%, 90%, 100%: {'background-position': 'calc(-100% - var(--shiny-width)) 0', },
+        '30%, 60%': {'background-position': 'calc(100% + var(--shiny-width)) 0', }, };
+}
+
+/* Custom utility classes */
+.font-weight-645 {
+    font-weight: 645;
+}
+.input-placeholder::placeholder {
+    color: var(--color-grey-2);
+}
+/* Question Item Buttons */
+.selected-answer {
+    background-color: var(--color-primary-default-80);
+    border-color: var(--color-primary-default);
+}
+
+.unselected-answer {
+    background-color: var(--color-natural-white);
+    border-color: var(--color-grey-4);
+}
+
+.selected-answer:hover {
+    background-color: var(--color-primary-default);
+    border-color: var(--color-primary-default);
+}
+
+.unselected-answer:hover {
+    border-color: var(--color-grey-3);
+}
+.custom-shimmer {
+    --shimmer-color: var(--color-grey-4); /* your custom grey */
+    --shimmer-highlight: color-mix(in srgb, var(--color-grey-4) 80%, white);
+}
+
+/* If the library uses pseudo-elements or animation, override them too */
+.custom-shimmer::before,
+.custom-shimmer::after {
+    background: linear-gradient(90deg, var(--shimmer-color), var(--shimmer-highlight), var(--shimmer-color)) !important;
+}
+
+/* Keyframes */
+@keyframes shiny-text {
+    0%,
+    90%,
+    100% {
+        background-position: calc(-100% - var(--shiny-width)) 0;
+    }
+    30%,
+    60% {
+        background-position: calc(100% + var(--shiny-width)) 0;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+/* Gentle entrance for the itinerary board when it replaces the loading skeleton —
+   eases the cards in instead of popping. */
+@keyframes itineraryFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-itinerary-fade-in {
+    animation: itineraryFadeIn 280ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .animate-itinerary-fade-in {
+        animation: none;
+    }
+}
+
+/* Entrance for the tripboard header strip (logo · tabs · trip name) so the whole
+   bar eases in on load instead of appearing suddenly. `backwards` fill applies the
+   start state before the first frame (no flash) but leaves NO lingering transform
+   after — so it can't create a containing block that would mis-position the header's
+   sticky behaviour or any fixed dropdowns. */
+@keyframes headerSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-header-slide-in {
+    animation: headerSlideIn 300ms cubic-bezier(0.2, 0.8, 0.2, 1) backwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .animate-header-slide-in {
+        animation: none;
+    }
+}
+
+/* Mobile itinerary card entrance — slide up from below + fade, used (staggered) only
+   on first load. `backwards` fill: start state applies before the first frame and no
+   transform lingers afterwards (so card press/drag transforms aren't affected). */
+@keyframes cardUp {
+    from {
+        opacity: 0;
+        transform: translateY(16px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-card-up {
+    animation: cardUp 320ms cubic-bezier(0.2, 0.8, 0.2, 1) backwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .animate-card-up {
+        animation: none;
+    }
+}
+
+@keyframes accordion-down {
+    from {
+        height: 0;
+    }
+    to {
+        height: var(--radix-accordion-content-height);
+    }
+}
+
+@keyframes accordion-up {
+    from {
+        height: var(--radix-accordion-content-height);
+    }
+    to {
+        height: 0;
+    }
+}
+
+@keyframes gradient {
+    to {
+        background-position: var(--bg-size, 300%) 0;
+    }
+}
+
+.animate-gradient {
+    animation: gradient 8s linear infinite;
+}
+
+@keyframes aurora-border {
+    0%,
+    100% {
+        border-radius: 37% 29% 27% 27% / 28% 25% 41% 37%;
+    }
+    25% {
+        border-radius: 47% 29% 39% 49% / 61% 19% 66% 26%;
+    }
+    50% {
+        border-radius: 57% 23% 47% 72% / 63% 17% 66% 33%;
+    }
+    75% {
+        border-radius: 28% 49% 29% 100% / 93% 20% 64% 25%;
+    }
+}
+
+@keyframes aurora-1 {
+    0%,
+    100% {
+        top: 0;
+        right: 0;
+    }
+    50% {
+        top: 50%;
+        right: 25%;
+    }
+    75% {
+        top: 25%;
+        right: 50%;
+    }
+}
+
+@keyframes aurora-2 {
+    0%,
+    100% {
+        top: 0;
+        left: 0;
+    }
+    60% {
+        top: 75%;
+        left: 25%;
+    }
+    85% {
+        top: 50%;
+        left: 50%;
+    }
+}
+
+@keyframes aurora-3 {
+    0%,
+    100% {
+        bottom: 0;
+        left: 0;
+    }
+    40% {
+        bottom: 50%;
+        left: 25%;
+    }
+    65% {
+        bottom: 25%;
+        left: 50%;
+    }
+}
+
+@keyframes aurora-4 {
+    0%,
+    100% {
+        bottom: 0;
+        right: 0;
+    }
+    50% {
+        bottom: 25%;
+        right: 40%;
+    }
+    90% {
+        bottom: 50%;
+        right: 25%;
+    }
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(calc(-100% - var(--gap)));
+    }
+}
+
+@keyframes marquee-vertical {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(calc(-100% - var(--gap)));
+    }
+}
+
+/* globals.css */
+.flex-center {
+    @apply flex items-center justify-center;
+}
+
+.flex-between {
+    @apply flex items-center justify-between;
+}
+
+/* Itinerary heading / sub-heading (consistent typography for itinerary module) */
+.itinerary-heading {
+    @apply text-base sm:text-[14px] font-red-hat-display font-medium text-grey-0;
+}
+.itinerary-subheading {
+    @apply text-[12px] font-manrope font-medium text-grey-2;
+}
+
+/* input label */
+.input-label {
+    @apply block text-[11px] sm:text-xs font-semibold text-grey-0 mb-1 sm:mb-1.5 font-red-hat-display uppercase tracking-wide;
+}
+
+/* placeholder  */
+.input-placeholder {
+    @apply text-[14px] text-sm md:text-[14px]   font-red-hat-display text-grey-0 placeholder:text-grey-2 font-medium;
+}
+
+/* input box */
+.input-box {
+    @apply w-full h-11 sm:h-[50px] px-3 rounded-xl border border-grey_4 bg-white  placeholder:text-[14px] placeholder:md:text-[14px]  md:text-[14px] font-red-hat-display text-grey-0 placeholder:text-grey-2 focus:outline-none focus:ring-2 focus:ring-primary-default;
+}
+
+/* Experience Card Styles */
+.line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* Custom scrollbar for carousel */
+.experience-carousel::-webkit-scrollbar {
+    height: 4px;
+}
+
+/* Responsive typography adjustments for common laptop viewports */
+@media (max-width: 1536px) {
+    .text-xs {
+        font-size: 0.625rem !important; /* 10px */
+    }
+    .text-sm {
+        font-size: 0.75rem !important; /* 12px */
+    }
+    .text-base {
+        font-size: 0.875rem !important; /* 14px */
+    }
+    .text-lg {
+        font-size: 1rem !important; /* 16px */
+    }
+    .text-xl {
+        font-size: 1.125rem !important; /* 18px */
+    }
+    .text-2xl {
+        font-size: 1.375rem !important; /* 22px */
+    }
+}
+
+@media (max-width: 1366px) {
+    .text-xs {
+        font-size: 0.5625rem !important; /* 9px */
+    }
+    .text-sm {
+        font-size: 0.6875rem !important; /* 11px */
+    }
+    .text-base {
+        font-size: 0.8125rem !important; /* 13px */
+    }
+    .text-lg {
+        font-size: 0.9375rem !important; /* 15px */
+    }
+    .text-xl {
+        font-size: 1.0625rem !important; /* 17px */
+    }
+    .text-2xl {
+        font-size: 1.3125rem !important; /* 21px */
+    }
+}
+
+.experience-carousel::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 2px;
+}
+
+.experience-carousel::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 2px;
+}
+
+.experience-carousel::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}
+
+/* Sheet Animation Styles */
+[data-radix-dialog-content] {
+    transform: translateX(100%);
+    transition: transform 2000ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+[data-state='open'][data-side='right'] {
+    transform: translateX(0);
+}
+
+[data-state='closed'][data-side='right'] {
+    transform: translateX(100%);
+}
+
+/* Force initial state */
+[data-radix-dialog-content][data-side='right'] {
+    transform: translateX(100%);
+}
+
+[data-radix-dialog-content][data-side='right'][data-state='open'] {
+    transform: translateX(0);
+}
+
+/* Bento Grid Layout */
+.bento-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 12px;
+    height: 320px;
+    width: 100%;
+}
+
+.bento-large {
+    grid-column: 1;
+    grid-row: 1 / 3;
+    width: 100%;
+    height: 100%;
+}
+
+.bento-small {
+    width: 100%;
+    height: 100%;
+}
+
+.bento-small:nth-child(2) {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.bento-small:nth-child(3) {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.bento-small:nth-child(4) {
+    grid-column: 2;
+    grid-row: 2;
+}
+.font-caveat {
+    font-family: var(--font-caveat);
+    font-weight: 700;
+}
+
+.bento-small:nth-child(5) {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+/* Mapbox Accommodation Popup Styles */
+.mapboxgl-popup.accommodation-popup .mapboxgl-popup-content {
+    padding: 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.mapboxgl-popup.accommodation-popup .mapboxgl-popup-close-button {
+    font-size: 20px;
+    padding: 8px;
+    color: white;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 8px;
+    top: 8px;
+    z-index: 10;
+}
+
+.mapboxgl-popup.accommodation-popup .mapboxgl-popup-close-button:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.mapboxgl-popup.accommodation-popup .mapboxgl-popup-tip {
+    border-top-color: white;
+}
+
+/* Stays map: keep canvas behind markers so hotel pins stay visible above best-areas layers */
+.stays-map-root > div:first-child {
+    z-index: 0;
+}
+.stays-map-root > div:not(:first-child) {
+    z-index: 10;
+}
+
+/* Stays map: best area hover popup */
+.stays-best-area-popup .mapboxgl-popup-content {
+    padding: 12px 14px;
+    min-width: 200px;
+    max-width: 280px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.stays-area-popup-content .stays-area-popup-name {
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    color: #101010;
+    margin-bottom: 6px;
+}
+.stays-area-popup-content .stays-area-popup-why {
+    font-size: 12px;
+    color: #374151;
+    line-height: 1.4;
+    margin: 0 0 8px 0;
+}
+.stays-area-popup-content .stays-area-popup-highlights {
+    margin: 0;
+    padding-left: 16px;
+    font-size: 11px;
+    color: #6b7280;
+    line-height: 1.4;
+}
+
+/* Small horizontal shake for input validation errors (e.g. TimeField). */
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    20% { transform: translateX(-4px); }
+    40% { transform: translateX(4px); }
+    60% { transform: translateX(-3px); }
+    80% { transform: translateX(2px); }
+}
+
+/* AI Assistant animations */
+@keyframes spin-slow {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.animate-spin-slow {
+    animation: spin-slow 3s linear infinite;
+}
+
+@keyframes searchbar-confetti-burst {
+    0% {
+        transform: scale(0.4);
+        opacity: 0.1;
+    }
+    40% {
+        transform: scale(1);
+        opacity: 0.85;
+    }
+    100% {
+        transform: scale(1.7);
+        opacity: 0;
+    }
+}
+
+.animate-searchbar-confetti {
+    animation: searchbar-confetti-burst 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Budget stay card — constrain the image height in grid view */
+.budget-stay-card .relative[class*='aspect-'] {
+    aspect-ratio: 16 / 9;
+    max-height: 200px;
+}
+
+@theme inline {
+    --animate-blink-cursor: blink-cursor 1.2s step-end infinite;
+    @keyframes blink-cursor {
+        0%,
+        49% {
+            opacity: 1;
+        }
+        50%,
+        100% {
+            opacity: 0;
+        }
+    }
+}
+
+@keyframes stays-gradient-flow {
+    0% {
+        background-position: 0% 58%;
+    }
+    100% {
+        background-position: 219% 58%;
+    }
+}
+
+@layer utilities {
+    .onboarding-gradient {
+        background: linear-gradient(226.53deg, #ab72fb -62.39%, #4d1d91 100%);
+        box-shadow: 0px 2px 8px 0px #7011f63d;
+    }
+}
+
+.stays-gradient-text {
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.64px;
+    background: linear-gradient(85deg, var(--primary-light, #ab72fb) -0.21%, var(--primary-dark, #4d1d91) 99.79%);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+    animation: stays-gradient-flow 1s linear infinite;
+}
+
+@layer utilities {
+    .bg-collection-video-gradient {
+        background: radial-gradient(120% 80% at 50% 40%, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.04), transparent 60%);
+    }
+}
+
+/* animation for city card - zoom effect */
+@keyframes zoomImage {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.15);
+    }
+}
+
+.animate-panorama {
+    animation: zoomImage 4s ease-in-out infinite alternate;
+}
+
+/* Group hover support for zoom animation */
+.group:hover .panorama-on-hover img {
+    animation: zoomImage 4s ease-in-out infinite alternate;
+}
+
+/* Fade in up animation for coming soon page */
+@keyframes fade-in-up {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fade-in-up {
+    animation: fade-in-up 0.6s ease-out forwards;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.animate-fade-in {
+    animation: fade-in 0.3s ease-in-out forwards;
+}
+
+.fc-col-header-cell-cushion,
+.fc-scrollgrid-sync-inner {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Ensure the direct child div stretches full width */
+.fc-col-header-cell-cushion > div,
+.fc-scrollgrid-sync-inner > div {
+    width: 100% !important;
+}
+.fc,
+.fc-view-harness,
+.fc-timegrid,
+.fc-timegrid-body,
+.fc-timegrid-bg {
+    background-color: #f8f8f8 !important; /* your color here */
+}
+
+/* REMOVE horizontal time slot borders */
+/* .fc-timegrid-slot {
+    border-top: none !important;
+} */
+/* 1) Show a thin border for all time slots by default (this becomes the hour line) */
+td.fc-timegrid-slot {
+    border-top: 1px solid rgba(0, 0, 0, 0.1); /* adjust color/weight as needed */
+}
+/* WHITE sticky date header */
+.fc-scrollgrid {
+    position: relative;
+}
+
+.fc-col-header {
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    background: #ffffff !important;
+}
+
+.fc-col-header-cell,
+.fc-col-header-cell .fc-scrollgrid-sync-inner {
+    background-color: #ffffff !important;
+}
+
+/* Optional: today indicator */
+.fc-col-header-cell.fc-day-today {
+    border-bottom: 2px solid var(--color-primary-default);
+}
+
+/* Prevent clipping */
+.fc-view-harness {
+    overflow: visible !important;
+}
+
+/* 2) Remove border for the half-hour (minor) slots */
+td.fc-timegrid-slot.fc-timegrid-slot-minor,
+td.fc-timegrid-slot.fc-timegrid-slot-lane.fc-timegrid-slot-minor {
+    border-top: none !important;
+}
+
+/* 3) (Optional) Make the hour lines a bit stronger to stand out */
+td.fc-timegrid-slot:not(.fc-timegrid-slot-minor) {
+    border-top: 1.1px solid var(--color-grey-4) !important;
+}
+
+/* ADD VERTICAL column borders */
+.fc-timegrid-cols col {
+    border-right: 1px solid #e5e7eb !important; /* Tailwind gray-200 */
+}
+.fc-timegrid-event-harness-inset .fc-timegrid-event,
+.fc-timegrid-event.fc-event-mirror,
+.fc-timegrid-more-link {
+    box-shadow: 0 0 0 0px var(--fc-page-bg-color);
+}
+
+.fc-timegrid-event .fc-event-main {
+    padding: 0px 0px 0px !important;
+}
+.fc-direction-ltr .fc-timegrid-col-events {
+    margin: 0px 8px 0px 8px;
+}
+.fc .fc-timegrid-col.fc-day-today {
+    background-color: #7011f612;
+}
+/* ADD VERTICAL borders for the header (top boxes) */
+.fc-col-header-cell {
+    border-right: 1px solid #e5e7eb !important;
+}
+/* Increase height of each time row */
+.fc-timegrid-slot {
+    height: 48px !important; /* your preferred height */
+    min-height: 48px !important;
+}
+
+/* Remove border on LAST column (optional) */
+.fc-timegrid-cols col:last-child {
+    border-right: none !important;
+}
+
+.fc-theme-standard .fc-scrollgrid {
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+}
+
+/* If the inner wrapper is also applying a background */
+.fc-col-header-cell.fc-day-today .fc-scrollgrid-sync-inner {
+    background-color: #7011f612 !important;
+}
+.fc-col-header {
+    background-color: #f8f8f8;
+}
+@media (max-width: 768px) {
+    .fc-timegrid-slot-label,
+    .fc-timegrid-axis {
+        display: none !important;
+    }
+
+    .fc-timegrid-col-frame {
+        margin-left: 0 !important;
+    }
+}
+/* Minimal Scrollbar - No background, no arrows */
+.custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(147, 51, 234, 0.3) transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(147, 51, 234, 0.3);
+    border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(147, 51, 234, 0.6);
+}
+
+/* Force hide all scrollbar buttons/arrows */
+.custom-scrollbar::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+.custom-scrollbar::-webkit-scrollbar-button:start:decrement,
+.custom-scrollbar::-webkit-scrollbar-button:end:increment {
+    display: none;
+}
+
+.custom-scrollbar::-webkit-scrollbar-corner {
+    background: transparent;
+}
+.single-line-truncate {
+    white-space: nowrap; /* Keep text on a single line */
+    overflow: hidden; /* Hide overflow */
+    text-overflow: ellipsis; /* Show "..." if text is too long */
+    max-width: 100%; /* Adjust width as needed */
+    display: block; /* Ensure block-level behavior */
+}
+/* Make the header cell wrapper take full column width */
+.fc .fc-scrollgrid-sync-inner {
+    width: 100%;
+}
+
+/* Make the <a> fill the entire header cell */
+.fc .fc-col-header-cell-cushion {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0; /* important */
+}
+
+/* Ensure your DateCard stretches fully */
+.fc .fc-col-header-cell-cushion > * {
+    width: 100%;
+}
+
+/* Floating itinerary assistant: slow rotating conic border  */
+@keyframes itinerary-floating-border-rotate {
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+.itinerary-floating-input-animated-border {
+    position: relative;
+    overflow: hidden;
+    border-radius: 1rem;
+    padding: 2px;
+    isolation: isolate;
+}
+
+.itinerary-floating-input-animated-border::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 0;
+    width: 240%;
+    aspect-ratio: 1;
+    transform: translate(-50%, -50%) rotate(0deg);
+    /* Continuous violet band — light stops lifted a step past primary-light, still saturated lavender */
+    background: conic-gradient(
+        from 0deg,
+        #dcc2ff 0deg,
+        #c49cff 72deg,
+        var(--color-primary-default) 144deg,
+        #b892fc 216deg,
+        #e5d4ff 288deg,
+        #dcc2ff 360deg
+    );
+    animation: itinerary-floating-border-rotate 9s linear infinite;
+    will-change: transform;
+    pointer-events: none;
+}
+
+/* Best-area hover tooltip on Mapbox maps. */
+.best-area-tooltip {
+    z-index: 1015;
+    pointer-events: none;
+}
+
+.best-area-tooltip .mapboxgl-popup-tip {
+    display: none !important;
+}
+
+.best-area-tooltip .mapboxgl-popup-content {
+    padding: 6px 12px 6px 22px;
+    border-radius: 9999px;
+    background: #ffffff;
+    color: var(--color-grey-0);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    line-height: 1.25;
+    box-shadow:
+        0 1px 0 rgba(255, 255, 255, 0.8) inset,
+        0 8px 20px -8px rgba(112, 17, 246, 0.28),
+        0 2px 6px -2px rgba(16, 16, 16, 0.12);
+    border: 1px solid rgba(112, 17, 246, 0.18);
+    white-space: nowrap;
+    position: relative;
+    animation: best-area-tooltip-in 140ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.best-area-tooltip .mapboxgl-popup-content {
+    padding-left: 26px;
+}
+
+.best-area-tooltip .mapboxgl-popup-content::before {
+    content: '';
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 12px;
+    background-image: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%237011f6' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0'/%3E%3Ccircle cx='12' cy='10' r='3'/%3E%3C/svg%3E");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@keyframes best-area-tooltip-in {
+    from {
+        opacity: 0;
+        transform: translateY(4px) scale(0.96);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}

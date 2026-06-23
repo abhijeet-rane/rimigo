@@ -1,0 +1,49 @@
+3) Reason for using Inline Drawer.
+
+Users are already planning their itinerary. Opening a modal breaks context.
+So, Inline expansion allows users to compare without losing the timeline.
+
+
+4) Works for all slot types, not just one.
+
+    a) Restaurant:
+       Ichiran Ramen --> 3 Alternatives --> Drawer --> Swap
+
+    b) Activity:
+       Shibuya Crossing --> 3 Alternatives --> Drawer --> Swap
+
+    c) Stay:
+       Park Hotel Tokyo --> 2 Alternatives --> Drawer --> Swap
+
+    d) Transfer:
+       Taxi --> 2 Alternatives --> Drawer --> Swap
+
+
+5) How it fits Rimigo's existing theme and layout?
+
+I will use an inline expandable drawer below each itinerary slot instead of a modal or new page. 
+This keeps the user on the same itinerary screen and matches Rimigo's existing card-based layout.
+
+Each slot (Activity, Restaurant, Stay, Transfer, etc.) will have a small "n Alternatives" button. 
+When clicked, a list of suggested alternatives will appear below the selected card with a Swap button for each of them.
+
+This approach:
+# Keeps the existing UI unchanged
+# Maintains the user's planning flow
+# Uses the same card style, spacing, colors, and border radius
+# Works consistently for all slot types
+
+
+6) Edge Cases:
+
+1. No Alternatives Available:
+   Show a simple message: "No alternatives available. Continue with your current selection."
+
+2. Loading State:
+   Display skeleton loading cards until the alternatives are loaded.
+
+3. Long List
+   Show alternatives inside a scrollable drawer with a fixed height so the itinerary remains clean.
+
+4. Mobile Behaviour
+   Instead of an inline drawer, show the alternatives in a bottom sheet for better usability on small screens.

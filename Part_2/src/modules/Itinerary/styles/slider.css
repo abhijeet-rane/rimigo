@@ -1,0 +1,45 @@
+/* Slider thumb styles */
+.slider-thumb::-webkit-slider-thumb {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #9333ea;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(147, 51, 234, 0.4);
+    transition: transform 0.2s;
+}
+
+@media (min-width: 768px) {
+    .slider-thumb::-webkit-slider-thumb {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+.slider-thumb::-webkit-slider-thumb:hover {
+    transform: scale(1.1);
+}
+
+/* Firefox */
+.slider-thumb::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #9333ea;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 2px 8px rgba(147, 51, 234, 0.4);
+    transition: transform 0.2s;
+}
+
+@media (min-width: 768px) {
+    .slider-thumb::-moz-range-thumb {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+.slider-thumb::-moz-range-thumb:hover {
+    transform: scale(1.1);
+}

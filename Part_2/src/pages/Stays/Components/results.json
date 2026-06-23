@@ -1,0 +1,509 @@
+{
+    "message": "Success",
+    "response_code": "SS0200",
+    "data": {
+        "data": [
+            {
+                "id": "6915bd407671b52d35f2ed90",
+                "agent_id": "68e5518fd9ef1a9272c5c2f0",
+                "thread_id": "6914e72b81561f6f6548e23a",
+                "trip_id": "6912e1d3adb3421dc76dc89f",
+                "user_id": "68d7e4f002ec67a64aabde91",
+                "space": "experiences_details",
+                "entity_id": "6815a2fee8ab27cae1a48e6a",
+                "entity_type": "experience_id",
+                "input_data": {
+                    "user_text_input": "Recommend the Best Tickets for Burj Khalifa",
+                    "feature_identifier": "burj_khalifa_recommendation",
+                    "data": {
+                        "preferences": {
+                            "burj_khalifa_deck_level": "at_the_top_124_125",
+                            "burj_khalifa_timing": "sunrise"
+                        }
+                    },
+                    "entity_id": "6815a2fee8ab27cae1a48e6a",
+                    "entity_type": "experience_id"
+                },
+                "output_data": {
+                    "output_type": "category_recommendation",
+                    "agent_type": "dubai_burj_khalifa_agent",
+                    "status": "completed",
+                    "provided_data": {
+                        "burj_khalifa_deck_level": [
+                            {
+                                "selected_id": "at_the_top_124_125",
+                                "selected_label": "At The Top (Levels 124 & 125)"
+                            }
+                        ],
+                        "burj_khalifa_timing": [
+                            {
+                                "selected_id": "sunrise",
+                                "selected_label": "Sunrise (5:00 AM - 6:30 AM)"
+                            }
+                        ]
+                    },
+                    "feature_identifier": null,
+                    "faq_answer": null,
+                    "recommendation": {
+                        "recommended_ticket_category": "At The Top - Levels 124 & 125 Sunrise Experience",
+                        "reasons_for_recommendation": "This ticket is the best match for your preferences as it grants access to the observation decks at Levels 124 & 125 during the spectacular sunrise hours (5:00 AM - 6:30 AM). You'll enjoy breathtaking early morning skyline views, a quieter and more peaceful experience with fewer crowds, and complimentary refreshments to start your day. The GetYourGuide platform is recommended for its excellent reputation, real-time availability, and reliable customer support.",
+                        "bookingLinks": [
+                            {
+                                "platform": "GetYourGuide",
+                                "platformID": "t49019",
+                                "affiliate_link": "https://www.getyourguide.com/en-gb/dubai-l173/dubai-burj-khalifa-levels-124-125-entry-ticket-options-t49019?partner_id=FW7H0H0&currency=INR&travel_agent=1&cmp=rimigo_ai",
+                                "cost_in_inr": "\u20b93,800",
+                                "tags": ["cheapest", "recommended"],
+                                "provider_icon": "https://cdn.brandfetch.io/idYbfbIeLo/w/400/h/400/theme/dark/icon.png?c=1bxid64Mup7aczewSAYMX&t=1687779005631",
+                                "tour_name": "Dubai: Burj Khalifa Levels 124 & 125 Entry Ticket + Options",
+                                "cancellation_policy": "Not Cancellable",
+                                "rating": {
+                                    "rating": 4.4234066,
+                                    "review_count": 86130
+                                },
+                                "duration": {
+                                    "start_duration": 90,
+                                    "end_duration": 90,
+                                    "unit": "minutes"
+                                },
+                                "price": {
+                                    "amount": 3835.0,
+                                    "currency": "INR"
+                                },
+                                "recommendation_reason": "Most reliable provider with real-time availability and trustworthy booking process"
+                            }
+                        ],
+                        "other_ticket_categories": [
+                            {
+                                "category_name": "Sunrise at At the Top, Burj Khalifa",
+                                "key_highlights": "Peaceful early morning experience with minimal crowds, perfect for photography, includes complimentary breakfast",
+                                "bookingLinks": [
+                                    {
+                                        "platform": "GetYourGuide",
+                                        "platformID": "t49019",
+                                        "affiliate_link": "https://www.getyourguide.com/en-gb/dubai-l173/dubai-burj-khalifa-levels-124-125-entry-ticket-options-t49019?partner_id=FW7H0H0&currency=INR&travel_agent=1&cmp=rimigo_ai",
+                                        "cost_in_inr": "\u20b93,800",
+                                        "tags": ["cheapest", "recommended"],
+                                        "provider_icon": "https://cdn.brandfetch.io/idYbfbIeLo/w/400/h/400/theme/dark/icon.png?c=1bxid64Mup7aczewSAYMX&t=1687779005631",
+                                        "tour_name": "Dubai: Burj Khalifa Levels 124 & 125 Entry Ticket + Options",
+                                        "cancellation_policy": "Not Cancellable",
+                                        "rating": {
+                                            "rating": 4.4234066,
+                                            "review_count": 86130
+                                        },
+                                        "duration": {
+                                            "start_duration": 90,
+                                            "end_duration": 90,
+                                            "unit": "minutes"
+                                        },
+                                        "price": {
+                                            "amount": 3835.0,
+                                            "currency": "INR"
+                                        },
+                                        "recommendation_reason": "Most reliable provider with real-time availability and trustworthy booking process"
+                                    },
+                                    {
+                                        "platform": "Viator",
+                                        "platformID": "2168P106",
+                                        "affiliate_link": "https://www.viator.com/tours/Dubai/Burj-Khalifa-At-the-Top-125th-floor-Sunrise/d828-2168P106?pid=P00230892&mcid=42383&medium=link&campaign=rimigo_ai",
+                                        "cost_in_inr": "\u20b94,600",
+                                        "tags": [],
+                                        "provider_icon": "https://rimigo-tripboard.s3.ap-south-1.amazonaws.com/b2clogos/ViatorLogo.png",
+                                        "tour_name": "Burj Khalifa: At the Top Level 124 Sunrise with Morning Treats at The Caf\u00e9",
+                                        "cancellation_policy": "Not Cancellable",
+                                        "rating": {
+                                            "rating": 3.8333333,
+                                            "review_count": 18
+                                        },
+                                        "duration": {
+                                            "start_duration": 60,
+                                            "end_duration": 120,
+                                            "unit": "minutes"
+                                        },
+                                        "price": {
+                                            "amount": 4559.540149735,
+                                            "currency": "INR"
+                                        },
+                                        "recommendation_reason": null
+                                    },
+                                    {
+                                        "platform": "Headout",
+                                        "platformID": "1866",
+                                        "affiliate_link": "https://www.headout.com/burj-khalifa-tickets/burj-khalifa-at-the-top-tickets-level-124-125-e-1866/?affiliate_code=eTqbl3&utm_content=link&utm_medium=affiliate&utm_source=rimigo.com&utm_campaign=rimigo_ai",
+                                        "cost_in_inr": "\u20b93,800",
+                                        "tags": [],
+                                        "provider_icon": "https://cdn.brandfetch.io/idFh4q9wFp/w/400/h/400/theme/dark/icon.jpeg?c=1bxid64Mup7aczewSAYMX&t=1759304666111",
+                                        "tour_name": "Burj Khalifa At The Top Tickets: Levels 124 & 125",
+                                        "cancellation_policy": null,
+                                        "rating": {
+                                            "rating": 4.4,
+                                            "review_count": 34045
+                                        },
+                                        "duration": {
+                                            "start_duration": 30,
+                                            "end_duration": 210,
+                                            "unit": "minutes"
+                                        },
+                                        "price": {
+                                            "amount": 3839.0,
+                                            "currency": "EUR"
+                                        },
+                                        "recommendation_reason": null
+                                    },
+                                    {
+                                        "platform": "Official Website",
+                                        "platformID": "burj_khalifa_direct",
+                                        "affiliate_link": "https://ticket.atthetop.ae/make-your-ticket/?id=4039",
+                                        "cost_in_inr": "\u20b93,800",
+                                        "tags": [],
+                                        "provider_icon": "https://cdn.brandfetch.io/idFh4q9wFp/w/400/h/400/theme/dark/icon.jpeg?c=1bxid64Mup7aczewSAYMX&t=1759304666111",
+                                        "tour_name": "Sunrise-Direct",
+                                        "cancellation_policy": null,
+                                        "rating": null,
+                                        "duration": null,
+                                        "price": {
+                                            "amount": 159.0,
+                                            "currency": "AED"
+                                        },
+                                        "recommendation_reason": null
+                                    }
+                                ],
+                                "duration_range": null
+                            }
+                        ],
+                        "duration_range": null
+                    },
+                    "tips": [
+                        {
+                            "tip_text": "Arrive at least 15\u201320 minutes before your scheduled sunrise slot to ensure a smooth check-in and enjoy a stress-free entry."
+                        },
+                        {
+                            "tip_text": "Early morning offers beautifully soft natural light\u2014bring your camera or smartphone to capture the city awakening and stunning golden hues."
+                        },
+                        {
+                            "tip_text": "Have a light snack before your visit, but enjoy the complimentary refreshments served at the top as part of the sunrise experience."
+                        },
+                        {
+                            "tip_text": "Plan your transportation in advance since public transit may have limited service very early; taxis or ride-shares are the most convenient for sunrise."
+                        },
+                        {
+                            "tip_text": "Check the weather forecast for clear skies to maximize your sunrise views, and consider combining your visit with an early breakfast at Dubai Mall after."
+                        }
+                    ],
+                    "high_level_itinerary": [
+                        {
+                            "itinerary_step": {
+                                "title": "Arrival & Security Check",
+                                "description": "Enter through Dubai Mall Lower Ground floor, complete security screening and ticket validation with multimedia presentation",
+                                "highlights": ["Enter via Mall lower ground", "Security screening & ticket check"],
+                                "image_url": "https://media.rimigo.com/1763031731215_42913e0a22e75587a9695b2975db78a9.jpeg"
+                            }
+                        },
+                        {
+                            "itinerary_step": {
+                                "title": "High-Speed Elevator Experience",
+                                "description": "Board world's fastest elevator traveling 10 meters/second to reach 124th floor in under 60 seconds with immersive effects",
+                                "highlights": ["Ride fastest elevator (10 m/s)", "Reach 124th floor under 60s"],
+                                "image_url": "https://media.rimigo.com/1763030975886_2462244f0d775102b517edc020768445.jpg"
+                            }
+                        },
+                        {
+                            "itinerary_step": {
+                                "title": "Level 124 Observatory",
+                                "description": "Explore indoor and outdoor observation decks with 360\u00b0 panoramic views, telescopes, and interactive displays at 452 meters height",
+                                "highlights": ["360\u00b0 indoor & outdoor views", "Telescopes for landmark spotting"],
+                                "image_url": "https://media.rimigo.com/1763031461583_ebefc546975f52ba83b6b76a0878a178.webp"
+                            }
+                        },
+                        {
+                            "itinerary_step": {
+                                "title": "Level 125 Premium Experience",
+                                "description": "Ascend to Level 125 featuring Arabic design, VR experiences, and green screen photos at 456 meters with crystal chandelier staircase",
+                                "highlights": ["Arabic design & chandelier", "VR green-screen photo experience"],
+                                "image_url": "https://media.rimigo.com/1763031583929_89f422e7eeac5f1a9984e94209af589e.jpg"
+                            }
+                        },
+                        {
+                            "itinerary_step": {
+                                "title": "Souvenir Shopping & Descent",
+                                "description": "Browse exclusive Burj Khalifa merchandise and purchase photo prints before returning via high-speed elevator",
+                                "highlights": ["Exclusive Burj Khalifa merchandise", "Photo print purchase counter"],
+                                "image_url": "https://media.rimigo.com/1763032096479_019354c61c465ab688b31ccb47decf91.jpg"
+                            }
+                        }
+                    ],
+                    "recommendations": null
+                },
+                "output_status": "completed",
+                "metadata": {
+                    "agent_type": "burj_khalifa",
+                    "agent_id": "68e5518fd9ef1a9272c5c2f0",
+                    "request_type": "feature_based",
+                    "thread_id": "6914e72b81561f6f6548e23a",
+                    "user_id": "68d7e4f002ec67a64aabde91",
+                    "trip_id": "6912e1d3adb3421dc76dc89f",
+                    "status": "completed",
+                    "method": "preferences"
+                },
+                "created_at": "2025-11-13T11:13:04.930000Z",
+                "updated_at": "2025-11-13T11:34:56.051000Z",
+                "type": null,
+                "sub_type": null
+            },
+            {
+                "id": "6914e72b81561f6f6548e23b",
+                "agent_id": "68e5518fd9ef1a9272c5c2f0",
+                "thread_id": "6914e72b81561f6f6548e23a",
+                "trip_id": "6912e1d3adb3421dc76dc89f",
+                "user_id": "68d7e4f002ec67a64aabde91",
+                "space": "experiences_details",
+                "entity_id": "6815a2fee8ab27cae1a48e6a",
+                "entity_type": "experience_id",
+                "input_data": {
+                    "user_text_input": "Recommend Best Tickets",
+                    "feature_identifier": "burj_khalifa_recommendation",
+                    "data": {
+                        "preferences": {
+                            "burj_khalifa_deck_level": "at_the_top_sky_148",
+                            "burj_khalifa_timing": "sunrise"
+                        }
+                    },
+                    "entity_id": "6815a2fee8ab27cae1a48e6a",
+                    "entity_type": "experience_id"
+                },
+                "output_data": {
+                    "output_type": "category_recommendation",
+                    "agent_type": "dubai_burj_khalifa_agent",
+                    "status": "completed",
+                    "provided_data": {
+                        "burj_khalifa_deck_level": [
+                            {
+                                "selected_id": "at_the_top_sky_148",
+                                "selected_label": "At The Top SKY (Level 148 + 124 & 125)"
+                            }
+                        ],
+                        "burj_khalifa_timing": [
+                            {
+                                "selected_id": "sunrise",
+                                "selected_label": "Sunrise (5:00 AM - 6:30 AM)"
+                            }
+                        ]
+                    },
+                    "feature_identifier": null,
+                    "faq_answer": null,
+                    "recommendation": {
+                        "recommended_ticket_category": "Platinum",
+                        "reasons_for_recommendation": "The Platinum ticket grants you exclusive access to the highest available observation levels at the Burj Khalifa, including Levels 124, 125, 148, 152, 153, and 154. This ensures a luxurious and crowd-free experience with fast-track entry, personalized service, and complimentary refreshments. Although the sunrise slot is not officially listed, the earliest possible premium experience closely matches your desire for tranquility and panoramic views from Level 148 and above. Booking through GetYourGuide is highly recommended due to their reliable service and excellent customer support.",
+                        "bookingLinks": [
+                            {
+                                "platform": "GetYourGuide",
+                                "platformID": "t215139",
+                                "affiliate_link": "https://www.getyourguide.com/en-gb/burj-khalifa-l2703/dubai-burj-khalifa-vip-experience-level-152-lounge-access-t215139?partner_id=FW7H0H0&currency=INR&travel_agent=1&cmp=rimigo_ai",
+                                "cost_in_inr": "\u20b918,500",
+                                "tags": ["cheapest", "recommended"],
+                                "provider_icon": "https://cdn.brandfetch.io/idYbfbIeLo/w/400/h/400/theme/dark/icon.png?c=1bxid64Mup7aczewSAYMX&t=1687779005631",
+                                "tour_name": "Dubai: Burj Khalifa VIP Experience Level 152 Lounge Access",
+                                "cancellation_policy": "Flexible Cancellation",
+                                "rating": {
+                                    "rating": 4.661694,
+                                    "review_count": 2078
+                                },
+                                "duration": {
+                                    "start_duration": 120,
+                                    "end_duration": 120,
+                                    "unit": "minutes"
+                                },
+                                "price": {
+                                    "amount": 18525.0,
+                                    "currency": "INR"
+                                },
+                                "recommendation_reason": "Most reliable provider with real-time availability and support"
+                            },
+                            {
+                                "platform": "Viator",
+                                "platformID": "2168P129",
+                                "affiliate_link": "https://www.viator.com/tours/Dubai/Skip-the-Line-Burj-Khalifa-Ticket-The-Lounge-152-153-and-154/d828-2168P129?pid=P00230892&mcid=42383&medium=link&campaign=rimigo_ai",
+                                "cost_in_inr": "\u20b920,100",
+                                "tags": [],
+                                "provider_icon": "https://rimigo-tripboard.s3.ap-south-1.amazonaws.com/b2clogos/ViatorLogo.png",
+                                "tour_name": "Premium Access to Burj Khalifa Ticket, The Lounge 152 ,153 & 154 ",
+                                "cancellation_policy": "Not Cancellable",
+                                "rating": {
+                                    "rating": 4.4257812,
+                                    "review_count": 256
+                                },
+                                "duration": {
+                                    "start_duration": 120,
+                                    "end_duration": 120,
+                                    "unit": "minutes"
+                                },
+                                "price": {
+                                    "amount": 20058.34430795,
+                                    "currency": "INR"
+                                },
+                                "recommendation_reason": null
+                            },
+                            {
+                                "platform": "Headout",
+                                "platformID": "1864",
+                                "affiliate_link": "https://www.headout.com/burj-khalifa-tickets/burj-khalifa-at-the-top-sky-tickets-with-introductory-tour-coffee-e-1864/?affiliate_code=eTqbl3&utm_content=link&utm_medium=affiliate&utm_source=rimigo.com&utm_campaign=rimigo_ai",
+                                "cost_in_inr": "\u20b918,600",
+                                "tags": [],
+                                "provider_icon": "https://cdn.brandfetch.io/idFh4q9wFp/w/400/h/400/theme/dark/icon.jpeg?c=1bxid64Mup7aczewSAYMX&t=1759304666111",
+                                "tour_name": "Burj Khalifa Tickets: Levels 124, 125 & SKY 148",
+                                "cancellation_policy": null,
+                                "rating": {
+                                    "rating": 4.4,
+                                    "review_count": 3385
+                                },
+                                "duration": {
+                                    "start_duration": 60,
+                                    "end_duration": 120,
+                                    "unit": "minutes"
+                                },
+                                "price": {
+                                    "amount": 9626.0,
+                                    "currency": "EUR"
+                                },
+                                "recommendation_reason": null
+                            },
+                            {
+                                "platform": "Official Website",
+                                "platformID": "burj_khalifa_direct",
+                                "affiliate_link": "https://ticket.atthetop.ae/make-your-ticket/?id=512",
+                                "cost_in_inr": "\u20b918,600",
+                                "tags": [],
+                                "provider_icon": "https://cdn.brandfetch.io/idFh4q9wFp/w/400/h/400/theme/dark/icon.jpeg?c=1bxid64Mup7aczewSAYMX&t=1759304666111",
+                                "tour_name": "Platinum-Direct",
+                                "cancellation_policy": null,
+                                "rating": null,
+                                "duration": null,
+                                "price": {
+                                    "amount": 769.0,
+                                    "currency": "AED"
+                                },
+                                "recommendation_reason": null
+                            }
+                        ],
+                        "other_ticket_categories": [
+                            {
+                                "category_name": "Gold",
+                                "key_highlights": "Premium experience at world's highest observation deck with VIP lounge access and refreshments",
+                                "bookingLinks": [
+                                    {
+                                        "platform": "GetYourGuide",
+                                        "platformID": "t49181",
+                                        "affiliate_link": "https://www.getyourguide.com/en-gb/dubai-l173/dubai-burj-khalifa-sky-level-148-124-125-entry-ticket-t49181?partner_id=FW7H0H0&currency=INR&travel_agent=1&cmp=rimigo_ai",
+                                        "cost_in_inr": "\u20b99,600",
+                                        "tags": ["cheapest"],
+                                        "provider_icon": "https://cdn.brandfetch.io/idYbfbIeLo/w/400/h/400/theme/dark/icon.png?c=1bxid64Mup7aczewSAYMX&t=1687779005631",
+                                        "tour_name": "Dubai: Burj Khalifa Sky Level 148, 124, & 125 Entry Ticket",
+                                        "cancellation_policy": "Flexible Cancellation",
+                                        "rating": {
+                                            "rating": 4.586273,
+                                            "review_count": 21884
+                                        },
+                                        "duration": {
+                                            "start_duration": 90,
+                                            "end_duration": 90,
+                                            "unit": "minutes"
+                                        },
+                                        "price": {
+                                            "amount": 9612.0,
+                                            "currency": "INR"
+                                        },
+                                        "recommendation_reason": null
+                                    }
+                                ],
+                                "duration_range": null
+                            }
+                        ],
+                        "duration_range": null
+                    },
+                    "tips": [
+                        {
+                            "tip_text": "Arrive 10-15 minutes before your scheduled entry to allow plenty of time for ticketing and the security check, as early morning slots are popular for their serenity."
+                        },
+                        {
+                            "tip_text": "Bring your camera or smartphone\u2014sunrise offers spectacular photo opportunities with unobstructed views over Dubai, especially from Level 148."
+                        },
+                        {
+                            "tip_text": "Dress comfortably and bring a light layer, as air conditioning in the observation lounges can make it chilly compared to the outside."
+                        },
+                        {
+                            "tip_text": "The Dubai Mall's taxi and parking areas can be busy even in the early morning; plan your transportation in advance, and follow clear signs for Burj Khalifa entry."
+                        },
+                        {
+                            "tip_text": "After the sunrise and observation experience, you can enjoy refreshments included with your Platinum ticket in the Sky Lounge. Consider a post-visit stroll through The Dubai Mall or watching the fountains if you're staying after your tour."
+                        }
+                    ],
+                    "high_level_itinerary": [
+                        {
+                            "itinerary_step": {
+                                "title": "Arrival & Security Check",
+                                "description": "Enter through Dubai Mall Lower Ground floor, complete security screening and ticket validation with multimedia presentation",
+                                "highlights": [],
+                                "image_url": "https://example.com/images/burj-khalifa-entrance.jpg"
+                            }
+                        },
+                        {
+                            "itinerary_step": {
+                                "title": "High-Speed Elevator Experience",
+                                "description": "Board world's fastest elevator traveling 10 meters/second to reach 124th floor in under 60 seconds with immersive effects",
+                                "highlights": [],
+                                "image_url": "https://example.com/images/burj-khalifa-elevator.jpg"
+                            }
+                        },
+                        {
+                            "itinerary_step": {
+                                "title": "Level 124 Observatory",
+                                "description": "Explore indoor and outdoor observation decks with 360\u00b0 panoramic views, telescopes, and interactive displays at 452 meters height",
+                                "highlights": [],
+                                "image_url": "https://example.com/images/burj-khalifa-level-124.jpg"
+                            }
+                        },
+                        {
+                            "itinerary_step": {
+                                "title": "Level 125 Premium Experience",
+                                "description": "Ascend to Level 125 featuring Arabic design, VR experiences, and green screen photos at 456 meters with crystal chandelier staircase",
+                                "highlights": [],
+                                "image_url": "https://example.com/images/burj-khalifa-level-125.jpg"
+                            }
+                        },
+                        {
+                            "itinerary_step": {
+                                "title": "Souvenir Shopping & Descent",
+                                "description": "Browse exclusive Burj Khalifa merchandise and purchase photo prints before returning via high-speed elevator",
+                                "highlights": [],
+                                "image_url": "https://example.com/images/burj-khalifa-gift-shop.jpg"
+                            }
+                        }
+                    ],
+                    "recommendations": null
+                },
+                "output_status": "completed",
+                "metadata": {
+                    "agent_type": "burj_khalifa",
+                    "agent_id": "68e5518fd9ef1a9272c5c2f0",
+                    "request_type": "feature_based",
+                    "thread_id": "6914e72b81561f6f6548e23a",
+                    "user_id": "68d7e4f002ec67a64aabde91",
+                    "trip_id": "6912e1d3adb3421dc76dc89f",
+                    "status": "completed",
+                    "method": "preferences"
+                },
+                "created_at": "2025-11-12T19:59:39.584000Z",
+                "updated_at": "2025-11-12T20:21:50.712000Z",
+                "type": null,
+                "sub_type": null
+            }
+        ],
+        "pagination": {
+            "page": 1,
+            "total_pages": 1,
+            "count": 2,
+            "limit": 50,
+            "offset": 0
+        }
+    }
+}
